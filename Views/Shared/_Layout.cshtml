@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml" xmlns:og="https://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml" lang="en" prefix="og: http://ogp.me/ns#" class=" fonts-loaded">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="stylesheet" href="~/stylesheets/custom-style.css">
+    <link rel="stylesheet" href="~/stylesheets/nouislider_min.css">
+    <link rel="stylesheet" href="~/stylesheets/bootstrap_min2.css">
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TBH</title>
+
+    <style>
+        #optanon ul#optanon-menu li {
+            background-color: !important
+        }
+
+            #optanon ul#optanon-menu li.menu-item-selected {
+                background-color: !important
+            }
+
+        #optanon #optanon-popup-wrapper .optanon-white-button-middle {
+            background-color: #FF5800 !important
+        }
+
+        .optanon-alert-box-wrapper .optanon-alert-box-button-middle {
+            background-color: #FF5800 !important;
+            border-color: #FF5800 !important;
+        }
+
+        #optanon #optanon-popup-wrapper .optanon-white-button-middle button {
+            color: #ffffff !important
+        }
+
+        .optanon-alert-box-wrapper .optanon-alert-box-button-middle button {
+            color: #ffffff !important
+        }
+
+        #optanon #optanon-popup-bottom {
+            background-color: #F2F2F2 !important
+        }
+
+        #optanon.modern #optanon-popup-top, #optanon.modern #optanon-popup-body-left-shading {
+            background-color: #F2F2F2 !important
+        }
+
+        .optanon-alert-box-wrapper {
+            background-color: #F5F7FA !important
+        }
+
+            .optanon-alert-box-wrapper .optanon-alert-box-bg p {
+                color: #26272B !important
+            }
+
+        body > div.optanon-alert-box-wrapper > div.optanon-alert-box-bottom-top > div > a {
+            visibility: hidden
+        }
+
+        #optanon-popup-bottom-logo {
+            display: none !important;
+        }
+
+        .optanon-show-settings-popup-wrapper .optanon-show-settings-middle {
+            padding-top: 7px !important;
+        }
+
+        .content-section.content-module-A.col-md-10 {
+            overflow: visible !important;
+        }
+    </style>
+    <script type="text/javascript" async="" src="https://cdn.bizible.com/BizibleAcct.js?_biz_u=d6b404a303ce4130e34f11e8b3a9894e&amp;_biz_h=-884118237&amp;cdn_o=a&amp;jsVer=4.20.04.01"></script>
+    <script type="text/javascript" async="" src="https://www.googleadservices.com/pagead/conversion_async.js"></script>
+    <script type="text/javascript" async="" src="//munchkin.marketo.net/158/munchkin.js"></script>
+    <script async="" id="demandbase_js_lib" src="https://scripts.demandbase.com/C2mmjkiL.min.js"></script>
+    <script type="text/javascript" async="" src="https://cdn.mouseflow.com/projects/b0e28f5d-5001-4c3f-9201-2e2956a23937.js"></script>
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script async="" type="text/javascript" src="//sjrtp6-cdn.marketo.com/rtp-api/v1/rtp.js?aid=avanade"></script>
+    <script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-TKMT4Q"></script>
+    <script src="https://cdn.cookielaw.org/consent/0a22c0b2-90ea-4bbe-8ec3-064b53430b45.js" type="text/javascript" charset="UTF-8"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" async="" src="https://snap.licdn.com/li.lms-analytics/insight.min.js"></script>
+
+    <script type="text/javascript">
+
+        function OptanonWrapper() { }
+
+    </script>
+
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TKMT4Q');
+    </script>
+
+
+
+</head>
+<body class="rebrand using-mouse">
+
+    <header>
+        <div>
+            @Html.Partial("_Header")
+        </div>
+    </header>
+
+    <div>
+        <section class="content-wrapper main-content clear-fix">
+            @RenderBody()            
+        </section>
+    </div>
+
+    <footer>
+        <div>
+            @Html.Partial("_Footer")
+        </div>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
