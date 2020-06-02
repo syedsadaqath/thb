@@ -2165,8 +2165,8 @@ section.header-top .modal-content {
     }
 
     .main-navigation ul.navbar-nav li a {
-        font-size: 12px;
-        text-transform: uppercase;
+        font-size: 14px;
+        text-transform:initial;
         color: #424242;
         font-weight: bold;
         text-align: center;
@@ -2776,7 +2776,7 @@ section.header-top .modal-content {
     }
 
     .main-navigation ul.navbar-nav li a {
-        font-size: 14px;
+        font-size: 16px;
         margin: 0;
         padding: 5px 7px
     }
@@ -37414,7 +37414,7 @@ header .social-icon {
 }
 
 .rebrand .main-navigation .container .row .logo a.navbar-brand1 img {
-    max-width: 120px;
+    max-width: 220px;
     height: 30px
 }
 
@@ -39281,7 +39281,7 @@ header .social-icon {
         }
 
     .rebrand .main-navigation .container .row .logo a.navbar-brand1 {
-        width: 120px;
+        width: 70px;
         height: 30px
     }
 }
@@ -62875,4 +62875,8 @@ html.fonts-loaded .coveo-main-section .CoveoSearchbox .magic-box .magic-box-inpu
     .card.group-height {
         height: auto !important
     }
+}
+
+.thbimg {
+    display: none;
 }

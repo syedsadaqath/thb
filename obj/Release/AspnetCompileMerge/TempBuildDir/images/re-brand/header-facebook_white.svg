@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="10px" height="21px" viewBox="0 0 10 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>header-facebook_white</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Global-Navigation-Modules" transform="translate(-1170.000000, -315.000000)" fill="#FFFFFF">
+            <g id="Header-Menu" transform="translate(0.000000, 150.000000)">
+                <g id="Utilities-Nav" transform="translate(543.000000, 155.000000)">
+                    <g id="Share" transform="translate(565.000000, 0.000000)">
+                        <g id="header-facebook_white" transform="translate(47.000000, 0.000000)">
+                            <path d="M15,16.6264476 L17.067,16.6264476 L17.067,14.6164476 C16.9718842,13.5399516 17.2040134,12.459819 17.733,11.5174476 C18.4755767,10.4991787 19.6873341,9.93140313 20.945,10.0124476 C22.1914574,9.95783526 23.4392804,10.0831228 24.65,10.3844476 L24.132,13.4474476 C23.5894146,13.2975989 23.0306829,13.2139906 22.468,13.1984476 C21.663,13.1984476 20.945,13.4864476 20.945,14.2904476 L20.945,16.6264476 L24.24,16.6264476 L24.011,19.6184476 L20.945,19.6184476 L20.945,30.0124476 L17.067,30.0124476 L17.067,19.6184476 L15,19.6184476 L15,16.6264476 Z"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,1696 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\sadha\thbsite</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ajax/libs/normalize/5-0-0/normalize.min.css">
+      <publishTime>05/16/2020 16:51:23</publishTime>
+    </File>
+    <File Include="ajax/libs/swiper/3-4-1/css/swiper.min.css">
+      <publishTime>05/16/2020 16:51:23</publishTime>
+    </File>
+    <File Include="ApplicationInsights.config">
+      <publishTime>04/08/2020 11:21:09</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>04/08/2020 11:21:09</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>06/03/2020 03:11:02</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>06/03/2020 03:11:01</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>06/27/2017 12:59:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>02/22/2018 16:25:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>02/22/2018 16:36:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>02/22/2018 14:39:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>02/22/2018 16:35:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>02/22/2018 16:36:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>02/22/2018 14:36:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.TelemetryCorrelation.dll">
+      <publishTime>06/28/2017 15:05:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>02/18/2018 09:44:54</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>07/19/2017 10:01:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>02/01/2018 12:16:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 15:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>02/01/2018 12:16:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/THB-site.dll">
+      <publishTime>06/03/2020 03:10:27</publishTime>
+    </File>
+    <File Include="bin/THB-site.pdb">
+      <publishTime>06/03/2020 03:10:27</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>01/23/2014 13:57:34</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>04/08/2020 11:20:40</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>04/08/2020 11:20:40</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>04/08/2020 11:20:40</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css.map">
+      <publishTime>04/08/2020 11:20:40</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>04/08/2020 11:20:39</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>04/08/2020 11:20:39</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>04/08/2020 11:20:39</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>04/08/2020 11:20:39</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>04/08/2020 11:19:54</publishTime>
+    </File>
+    <File Include="css/bootstrap_min2.css">
+      <publishTime>05/16/2020 16:51:30</publishTime>
+    </File>
+    <File Include="css/custom-style.css">
+      <publishTime>05/20/2020 15:23:42</publishTime>
+    </File>
+    <File Include="css/marketo-min.css">
+      <publishTime>05/21/2020 01:27:26</publishTime>
+    </File>
+    <File Include="css/nouislider_min.css">
+      <publishTime>05/16/2020 16:51:30</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>05/30/2020 17:17:13</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/css/font-awesome.css">
+      <publishTime>05/17/2020 02:59:03</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>05/16/2020 16:51:30</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>05/16/2020 16:51:30</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>05/16/2020 16:51:30</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>05/16/2020 16:51:30</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>05/16/2020 16:34:21</publishTime>
+    </File>
+    <File Include="fonts/WeblySleek-UI/WeblySleekUILight.woff">
+      <publishTime>05/16/2020 16:51:30</publishTime>
+    </File>
+    <File Include="fonts/WeblySleek-UI/weblysleekuisb.ttf">
+      <publishTime>05/16/2020 16:51:30</publishTime>
+    </File>
+    <File Include="fonts/WeblySleek-UI/weblysleekuisb.woff">
+      <publishTime>05/16/2020 16:51:30</publishTime>
+    </File>
+    <File Include="fonts/WeblySleek-UI/weblysleek_ui_normal.eot">
+      <publishTime>05/16/2020 16:51:30</publishTime>
+    </File>
+    <File Include="fonts/WeblySleek-UI/weblysleek_ui_normal.ttf">
+      <publishTime>05/16/2020 16:51:30</publishTime>
+    </File>
+    <File Include="fonts/WeblySleek-UI/WeblySleek_UI_Normal.woff">
+      <publishTime>05/16/2020 16:51:30</publishTime>
+    </File>
+    <File Include="images-used/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>03/31/2020 14:17:00</publishTime>
+    </File>
+    <File Include="images-used/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>03/31/2020 14:17:00</publishTime>
+    </File>
+    <File Include="images-used/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>03/31/2020 14:17:00</publishTime>
+    </File>
+    <File Include="images-used/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>03/31/2020 14:17:00</publishTime>
+    </File>
+    <File Include="images-used/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>03/31/2020 14:16:59</publishTime>
+    </File>
+    <File Include="images-used/images/footer/back_to_top.svg">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images-used/images/footer/Causewave.svg">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images-used/images/footer/envelope.png">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images-used/images/footer/footerwave1.svg">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images-used/images/footer/footerwave2.svg">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images-used/images/footer/footerwave3.svg">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images-used/images/footer/footerwave4.svg">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images-used/images/footer/footerwave5.svg">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images-used/images/footer/footerwave6.svg">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images-used/images/footer/footerwave7.svg">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images-used/images/footer/world.png">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images-used/images/re-brand/flame-1920.png">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images-used/images/re-brand/global-orange.svg">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images-used/images/re-brand/glow-1920.png">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images-used/images/re-brand/header-facebook_white.svg">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images-used/images/re-brand/header-linkedin_white.svg">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images-used/images/re-brand/header-twitter_white.svg">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images-used/images/re-brand/hero-arrow_left.svg">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images-used/images/re-brand/hero-arrow_right.svg">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images-used/images/re-brand/hero_card-download-orange.svg">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images-used/images/re-brand/hero_card-externallink-orange.svg">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images-used/images/re-brand/hero_card-play_video.svg">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images-used/images/re-brand/hero_card-read_more.svg">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images-used/images/sharing-tooltip/Facebook.png">
+      <publishTime>04/15/2020 11:53:47</publishTime>
+    </File>
+    <File Include="images-used/images/sharing-tooltip/Linkedin.png">
+      <publishTime>04/15/2020 11:53:47</publishTime>
+    </File>
+    <File Include="images-used/images/sharing-tooltip/Pinterest.png">
+      <publishTime>04/15/2020 11:53:47</publishTime>
+    </File>
+    <File Include="images-used/images/sharing-tooltip/Twitter.png">
+      <publishTime>04/15/2020 11:53:47</publishTime>
+    </File>
+    <File Include="images-used/images/SVG/down_white_arrow.svg">
+      <publishTime>04/21/2020 17:18:37</publishTime>
+    </File>
+    <File Include="images-used/images/SVG/global-orange.svg">
+      <publishTime>04/06/2020 18:35:18</publishTime>
+    </File>
+    <File Include="images-used/images/SVG/global-white.svg">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images-used/images/SVG/search-orange.svg">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images-used/images/SVG/search-small-white.svg">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images-used/Media/images/content/background/thinking/contact-avanade.jpg">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images-used/Media/images/content/background/thinking/covid19-remote-working-hero %281%29.jpg">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images-used/Media/images/content/background/thinking/covid19-remote-working-hero.jpg">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images-used/Media/images/content/background/thinking/modern-workplace.jpg">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images-used/Media/images/icons/socialmedia/facebook-lightgrey.svg">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images-used/Media/images/icons/socialmedia/instagram-lightgrey.svg">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images-used/Media/images/icons/socialmedia/linkedin-lightgrey.svg">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images-used/Media/images/icons/socialmedia/pinterest-lightgrey.svg">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images-used/Media/images/icons/socialmedia/twitter-lightgrey.svg">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images-used/Media/logo/avanade-logo.svg">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images-used/Media/logo/Company Logo with R Mark %282%29.jpg">
+      <publishTime>05/16/2020 01:42:06</publishTime>
+    </File>
+    <File Include="images-used/Media/logo/Company Logo with R Mark %283%29.jpg">
+      <publishTime>05/16/2020 01:49:02</publishTime>
+    </File>
+    <File Include="images-used/Media/logo/Company Logo with R Mark.jpg">
+      <publishTime>04/04/2020 12:20:46</publishTime>
+    </File>
+    <File Include="images-used/Media/logo/Company-Logo-with-R-Mark-_2_.svg">
+      <publishTime>05/16/2020 01:47:09</publishTime>
+    </File>
+    <File Include="images-used/Media/logo/home.svg">
+      <publishTime>04/04/2020 00:25:42</publishTime>
+    </File>
+    <File Include="images/apple-touch-icon-114x114.png">
+      <publishTime>05/17/2020 07:13:01</publishTime>
+    </File>
+    <File Include="images/apple-touch-icon-120x120.png">
+      <publishTime>05/17/2020 07:13:01</publishTime>
+    </File>
+    <File Include="images/apple-touch-icon-144x144.png">
+      <publishTime>05/17/2020 07:13:01</publishTime>
+    </File>
+    <File Include="images/apple-touch-icon-152x152.png">
+      <publishTime>05/17/2020 07:13:01</publishTime>
+    </File>
+    <File Include="images/apple-touch-icon-57x57.png">
+      <publishTime>05/17/2020 07:13:01</publishTime>
+    </File>
+    <File Include="images/apple-touch-icon-60x60.png">
+      <publishTime>05/17/2020 07:13:01</publishTime>
+    </File>
+    <File Include="images/apple-touch-icon-72x72.png">
+      <publishTime>05/17/2020 07:13:01</publishTime>
+    </File>
+    <File Include="images/apple-touch-icon-76x76.png">
+      <publishTime>05/17/2020 07:13:01</publishTime>
+    </File>
+    <File Include="images/arrow.png">
+      <publishTime>05/17/2020 07:13:01</publishTime>
+    </File>
+    <File Include="images/arrow_bottom.png">
+      <publishTime>05/17/2020 07:13:01</publishTime>
+    </File>
+    <File Include="images/arrow_down.png">
+      <publishTime>05/17/2020 07:13:01</publishTime>
+    </File>
+    <File Include="images/arrow_right.png">
+      <publishTime>05/17/2020 07:13:01</publishTime>
+    </File>
+    <File Include="images/arrow_top.png">
+      <publishTime>05/17/2020 07:13:01</publishTime>
+    </File>
+    <File Include="images/arrow_top_ blog.png">
+      <publishTime>05/17/2020 07:13:01</publishTime>
+    </File>
+    <File Include="images/assessment/bg-gradient.png">
+      <publishTime>05/17/2020 07:13:01</publishTime>
+    </File>
+    <File Include="images/assets/Close.svg">
+      <publishTime>05/17/2020 07:13:01</publishTime>
+    </File>
+    <File Include="images/assets/close_hover.svg">
+      <publishTime>05/17/2020 07:13:01</publishTime>
+    </File>
+    <File Include="images/assets/Expand.svg">
+      <publishTime>05/17/2020 07:13:01</publishTime>
+    </File>
+    <File Include="images/assets/expand_hover.svg">
+      <publishTime>05/17/2020 07:13:01</publishTime>
+    </File>
+    <File Include="images/assets/Facebook.svg">
+      <publishTime>05/17/2020 07:13:01</publishTime>
+    </File>
+    <File Include="images/assets/Google.svg">
+      <publishTime>05/17/2020 07:13:01</publishTime>
+    </File>
+    <File Include="images/assets/left_arrow.svg">
+      <publishTime>05/17/2020 07:13:01</publishTime>
+    </File>
+    <File Include="images/assets/Linkedin.svg">
+      <publishTime>05/17/2020 07:13:01</publishTime>
+    </File>
+    <File Include="images/assets/Mail.svg">
+      <publishTime>05/17/2020 07:13:01</publishTime>
+    </File>
+    <File Include="images/assets/Pinterest.svg">
+      <publishTime>05/17/2020 07:13:01</publishTime>
+    </File>
+    <File Include="images/assets/right_arrow.svg">
+      <publishTime>05/17/2020 07:13:01</publishTime>
+    </File>
+    <File Include="images/assets/share-mobile.svg">
+      <publishTime>05/17/2020 07:13:01</publishTime>
+    </File>
+    <File Include="images/assets/Share_Filled.svg">
+      <publishTime>05/17/2020 07:13:01</publishTime>
+    </File>
+    <File Include="images/assets/Share_Outline.svg">
+      <publishTime>05/17/2020 07:13:01</publishTime>
+    </File>
+    <File Include="images/assets/Twitter.svg">
+      <publishTime>05/17/2020 07:13:01</publishTime>
+    </File>
+    <File Include="images/avanade_logo.svg">
+      <publishTime>05/17/2020 07:13:01</publishTime>
+    </File>
+    <File Include="images/big-expand.svg">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/big-video-withoutcircle.svg">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/big-video.svg">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/Blogs/blog_read_more.svg">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/Blogs/breadcrumbs-orange.svg">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/Blogs/close-white.svg">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/Blogs/close_orange.svg">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/Blogs/drop_down.svg">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/Blogs/drop_down_close.svg">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/Blogs/header-arrow_down-white.svg">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/Blogs/less_icon.svg">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/Blogs/more_icon.svg">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/Blogs/refresh_captcha.svg">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/Blogs/SearchOrange.svg">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/Blogs/search_orange.svg">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/Blogs/Tag.svg">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/cards-icons/big/zoom.png">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/cards-icons/Download-2.svg">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/cards-icons/download-dark.png">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/cards-icons/download-hover-grey.svg">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/cards-icons/download.png">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/cards-icons/download.svg">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/cards-icons/link.png">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/cards-icons/play-dark.png">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/cards-icons/play-orange.png">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/cards-icons/play.png">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/cards-icons/rss-orange.png">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/cards-icons/rss-white.png">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/cards-icons/share-btn.png">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/cards-icons/share-gray.svg">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/cards-icons/zoom-dark-2.png">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/cards-icons/Zoom-dark.png">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/cards-icons/zoom-orange.png">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/cards-icons/zoom-white.png">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/cards-icons/Zoom.png">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/checkbox.png">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/checkbox1.png">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/checkbox2.png">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/Cookies/cookie_policy.svg">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/Cookies/save_icon.svg">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/download-orange.svg">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/expand-orange.svg">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/favicon-128.png">
+      <publishTime>05/30/2020 18:38:24</publishTime>
+    </File>
+    <File Include="images/favicon-16x16.png">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/favicon-196x196.png">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/favicon-32x32.png">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/favicon-96x96.png">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/footer/back_to_top.svg">
+      <publishTime>05/16/2020 17:08:48</publishTime>
+    </File>
+    <File Include="images/footer/causewave - Copy.svg">
+      <publishTime>05/17/2020 18:17:19</publishTime>
+    </File>
+    <File Include="images/footer/causewave.svg">
+      <publishTime>05/17/2020 18:17:45</publishTime>
+    </File>
+    <File Include="images/footer/causewavebkp.svg">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/footer/close_orange1.svg">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/footer/envelope.png">
+      <publishTime>05/16/2020 17:08:48</publishTime>
+    </File>
+    <File Include="images/footer/footerwave1.svg">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/footer/footerwave2.svg">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/footer/footerwave3.svg">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/footer/footerwave4.svg">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/footer/footerwave5.svg">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/footer/footerwave6.svg">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/footer/footerwave7.svg">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/footer/world.png">
+      <publishTime>05/16/2020 17:08:48</publishTime>
+    </File>
+    <File Include="images/header/close_moblewhite_btn.png">
+      <publishTime>05/17/2020 07:13:04</publishTime>
+    </File>
+    <File Include="images/header/facebook-orange.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/header/favicon.ico">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/header/googleplus-orange.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/header/linkedin-orange.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/header/search_mobile_default.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/header/twitter-orange.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/header/youtube-orange.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/Img_Infograph/Close.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/Img_Infograph/Contract-mobile-white.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/Img_Infograph/Contract-white.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/Img_Infograph/Contract.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/Img_Infograph/Expand-white.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/Img_Infograph/Expand.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/Img_Infograph/Image-white.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/Img_Infograph/Text-Only-white.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/left-arrow-hero-module.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/left.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/Left_new.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/minus-2.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/minus-orange.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/minus.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/pdf.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/Play-2.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/play-dark.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/Play-orange.html">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/play-video-orange.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/play.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/plus-2.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/plus.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/aurora-1920.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/aurora-3840.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/big-expand.html">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/big-video.html">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/breadcrumb_chevron_white.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/close-orange.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/download-orange.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/expand-dark.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/expand-orange.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/expand-white.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/external.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/flame-1920.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/flame-3840.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/global-orange.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/glow-1920.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/glow-3840.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/header-facebook_white.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/header-googleplus_white.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/header-linkedin_white.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/header-twitter_white.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/hero-arrow_left.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/hero-arrow_right.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/hero_card-download-orange.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/hero_card-externallink-orange.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/hero_card-externallink-white.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/hero_card-play_video-orange.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/hero_card-play_video.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/hero_card-read_more.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/luminous-1920.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/luminous-3840.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/mobile_hero-download-white.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/mobile_hero-play_video-white.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/mobile_hero-readmore.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/play-video-orange.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/solar-1920.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/solar-3840.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/thermal-1920.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/thermal-3840.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/thermal-640.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/waves/waves1-1.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/waves/waves1-2.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/waves/waves1-3.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/waves/waves1-4.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/waves/waves2-1.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/waves/waves2-2.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/waves/waves2-3.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/waves/waves3-1.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/waves/waves3-2.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/waves/waves3-3.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/waves/waves4-1.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/waves/waves4-2.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/waves/waves4-3.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/waves/waves5-1.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/waves/waves5-2.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/waves/waves5-3.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/waves/waves6-1.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/re-brand/waves/waves6-2.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/read-more-orange.svg">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/refresh.png">
+      <publishTime>05/17/2020 07:13:05</publishTime>
+    </File>
+    <File Include="images/right-arrow-hero-module.png">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/right.png">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/share-orange.svg">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/sharing-tooltip/Envelope.png">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/sharing-tooltip/Facebook.png">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/sharing-tooltip/Google_plus.png">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/sharing-tooltip/Instagram.png">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/sharing-tooltip/Linkedin.png">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/sharing-tooltip/Pinterest.png">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/sharing-tooltip/Twitter.png">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/sharing-tooltip/viadeo-orange.svg">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/sharing-tooltip/xing-orange.svg">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/svg/close-orange.svg">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/svg/down_orange_arrow.svg">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/svg/down_white_arrow.svg">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/svg/facebook-lightgrey.svg">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/svg/global-orange.svg">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/svg/global-white.svg">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/svg/googleplus-lightgrey.svg">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/svg/language-close.svg">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/svg/linkedin-lightgrey.svg">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/svg/mobile/close-circle-white.svg">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/svg/mobile/Expand.svg">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/svg/mobile/facebook.svg">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/svg/mobile/googleplus.svg">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/svg/mobile/linkedin.svg">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/svg/mobile/minus-white.svg">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/svg/mobile/pinterest.svg">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/svg/mobile/plus-orange.svg">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/svg/mobile/right.svg">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/svg/mobile/twitter.svg">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/svg/OutsideLink.svg">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/svg/pinterest-lightgrey.svg">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/svg/search-orange.svg">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/svg/search-small-gray.svg">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/svg/search-small-white.svg">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/svg/search-white.svg">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/svg/twitter-lightgrey.svg">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/svg/youtube-lightgrey.svg">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/About-us/about-bann.jpg">
+      <publishTime>04/21/2020 13:03:59</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/About-us/mission_img.png">
+      <publishTime>05/08/2020 07:10:34</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/About-us/vission_img.png">
+      <publishTime>05/08/2020 07:10:34</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Career/nw_pd %281%29.jpg">
+      <publishTime>05/16/2020 00:50:53</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Career/nw_pd %282%29.jpg">
+      <publishTime>05/17/2020 00:32:41</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Career/nw_pd %283%29.jpg">
+      <publishTime>05/17/2020 00:32:42</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Career/nw_pd %284%29.jpg">
+      <publishTime>05/16/2020 00:50:53</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Career/nw_pd %285%29.jpg">
+      <publishTime>05/17/2020 00:32:41</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Career/nw_pd %286%29.jpg">
+      <publishTime>05/16/2020 00:50:53</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Career/nw_pd %287%29.jpg">
+      <publishTime>05/16/2020 00:50:53</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Career/nw_pd %288%29.jpg">
+      <publishTime>05/16/2020 00:50:53</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/career_bann.jpeg">
+      <publishTime>05/12/2020 21:09:31</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Collaboration1.jpg">
+      <publishTime>04/04/2020 12:21:20</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Collaboration2.jpg">
+      <publishTime>04/04/2020 12:21:18</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/home_bann_1.jpg">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/home_bann_2.jpg">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/home_bann_3.jpg">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/home_bann_4.jpg">
+      <publishTime>04/01/2020 16:32:25</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Icons/consulting_icon2.png">
+      <publishTime>05/15/2020 21:42:50</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Icons/iip_icon.png">
+      <publishTime>05/15/2020 21:42:54</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Icons/staffing_icon.png">
+      <publishTime>05/15/2020 21:42:46</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/iips.jpg">
+      <publishTime>05/17/2020 15:46:04</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Industries.jpg">
+      <publishTime>05/12/2020 21:48:41</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Industries/best-practices-for-virtual-workshops.jpg">
+      <publishTime>05/16/2020 13:39:54</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Industries/digital-marketing-webinar.jpg">
+      <publishTime>05/16/2020 13:39:54</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Industries/dwg-remote-working-webinar.jpg">
+      <publishTime>05/16/2020 14:09:37</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Industries/field-service-usa-hero.jpg">
+      <publishTime>05/16/2020 14:09:37</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Industries/intelligence-for-the-speed-of-business.jpg">
+      <publishTime>05/16/2020 13:39:54</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Industries/maximize-microsoft-dynamics-ax-365-hero.jpg">
+      <publishTime>05/16/2020 13:39:54</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Industries/open-banking-webinar.jpg">
+      <publishTime>05/16/2020 14:09:37</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Industries/reduce-azure-costs-webinar.jpg">
+      <publishTime>05/16/2020 13:39:54</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Industries/reimagining-retail-with-ai-webinar.jpg">
+      <publishTime>05/16/2020 13:39:54</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Industries/security-strategy-webinar.jpg">
+      <publishTime>05/16/2020 13:39:54</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Industries/security-webinar-hero.jpg">
+      <publishTime>05/16/2020 14:09:37</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Industries/skype-hero.jpg">
+      <publishTime>05/16/2020 13:39:54</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Industries/virtual-fundraiser-webinar-hero.jpg">
+      <publishTime>05/16/2020 14:10:47</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Innovation-Center/1.Top-academics.png">
+      <publishTime>05/16/2020 05:28:07</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Innovation-Center/2.-An-analytical-mind.png">
+      <publishTime>05/16/2020 05:29:54</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Innovation-Center/3.-Emotional-intelligence.png">
+      <publishTime>05/16/2020 05:32:37</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Innovation-Center/4.-Commercial-awareness.png">
+      <publishTime>05/16/2020 05:32:37</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Innovation-Center/5.-Resilience.png">
+      <publishTime>05/16/2020 05:32:37</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Innovation-Center/AR-VR.png">
+      <publishTime>05/16/2020 04:55:48</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Innovation-Center/Business-Intelligence.png">
+      <publishTime>05/16/2020 04:42:52</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Innovation-Center/Center-of-Excellence.png">
+      <publishTime>05/16/2020 05:02:16</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Innovation-Center/data-science.png">
+      <publishTime>05/16/2020 04:41:28</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Innovation-Center/iot.png">
+      <publishTime>05/16/2020 05:00:13</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Innovation-Center/Optimization-and-Tuning-techniques-High-Scale-servers.png">
+      <publishTime>05/16/2020 04:48:04</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Innovation-Center/Performance-Monitoring.png">
+      <publishTime>05/16/2020 04:44:13</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Innovation-Center/Research-and-Development.png">
+      <publishTime>05/16/2020 04:39:40</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Innovation-Center/rpa.png">
+      <publishTime>05/16/2020 04:50:09</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/new images/Collaboration 1.jpg">
+      <publishTime>04/04/2020 12:21:20</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/new images/Collaboration 2.jpg">
+      <publishTime>04/04/2020 12:21:18</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/new images/Company Logo with R Mark.jpg">
+      <publishTime>04/04/2020 12:20:46</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/new images/icons8-home-40.png">
+      <publishTime>04/04/2020 00:22:13</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/new images/icons8-home.svg">
+      <publishTime>04/04/2020 00:24:54</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/new images/image001.png">
+      <publishTime>04/04/2020 12:21:16</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/new images/image002.png">
+      <publishTime>04/04/2020 12:21:17</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Orientation-center/advanced-java.png">
+      <publishTime>05/16/2020 03:08:03</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Orientation-center/AI-ML-DL.png">
+      <publishTime>05/16/2020 03:55:48</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Orientation-center/android.png">
+      <publishTime>05/16/2020 03:55:48</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Orientation-center/Cloud-Computing.png">
+      <publishTime>05/16/2020 03:55:48</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Orientation-center/DevOpsOpenShift.png">
+      <publishTime>05/16/2020 03:55:48</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Orientation-center/Embedded-Systems.png">
+      <publishTime>05/16/2020 03:55:48</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Orientation-center/project-management.png">
+      <publishTime>05/16/2020 03:55:48</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Orientation-center/Telecom-OSS-BSS.png">
+      <publishTime>05/16/2020 03:55:48</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Orientation-center/Test-Automation-Scripting.png">
+      <publishTime>05/16/2020 03:55:48</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Our-Clients/Image.png">
+      <publishTime>05/13/2020 14:38:34</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/Our-Clients/Text-Only.png">
+      <publishTime>05/13/2020 14:42:02</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/OurClients/Bharat.png">
+      <publishTime>05/16/2020 14:32:06</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/OurClients/CKD.png">
+      <publishTime>05/16/2020 14:32:06</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/OurClients/Iclean.png">
+      <publishTime>05/16/2020 14:32:06</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/OurClients/Mobile.png">
+      <publishTime>05/16/2020 14:32:06</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/OurClients/PCG.png">
+      <publishTime>05/16/2020 14:32:06</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/OurClients/Primax.png">
+      <publishTime>05/16/2020 14:32:06</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/OurClients/Regalix.png">
+      <publishTime>05/16/2020 14:32:06</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/OurClients/Tech.jpg">
+      <publishTime>05/16/2020 14:32:06</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/OurClients/Telstra.png">
+      <publishTime>05/16/2020 14:32:06</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/OurClients/Travels.png">
+      <publishTime>05/16/2020 14:32:06</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/services/111.png">
+      <publishTime>05/17/2020 00:11:43</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/services/222.png">
+      <publishTime>05/17/2020 00:11:43</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/services/Custom Software Development Services.jpg">
+      <publishTime>05/16/2020 23:40:01</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/services/inr-contract.jpg">
+      <publishTime>05/17/2020 00:11:43</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/services/interactive Services.jpg">
+      <publishTime>05/16/2020 23:50:07</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/services/Microsoft Services.jpg">
+      <publishTime>05/16/2020 23:53:06</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/services/Sourcing and Staffing Services.jpg">
+      <publishTime>05/16/2020 23:47:28</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/services_bann.jpeg">
+      <publishTime>05/16/2020 10:55:24</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/serv_bann2.jpg">
+      <publishTime>05/08/2020 22:29:29</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/skilled-professiona.jpg">
+      <publishTime>05/17/2020 15:55:24</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/TechExpertise/angular.jpg">
+      <publishTime>05/16/2020 15:51:57</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/TechExpertise/appium.jpg">
+      <publishTime>05/16/2020 16:07:53</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/TechExpertise/bootstrap.jpg">
+      <publishTime>05/16/2020 15:51:57</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/TechExpertise/cocandobjective.jpg">
+      <publishTime>05/16/2020 15:51:57</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/TechExpertise/core.jpg">
+      <publishTime>05/16/2020 15:17:35</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/TechExpertise/couchdb.jpg">
+      <publishTime>05/16/2020 15:51:57</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/TechExpertise/cplusplus.jpg">
+      <publishTime>05/16/2020 15:17:34</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/TechExpertise/grafana.jpg">
+      <publishTime>05/16/2020 16:07:53</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/TechExpertise/graphdb.jpg">
+      <publishTime>05/16/2020 15:51:57</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/TechExpertise/ionic.jpg">
+      <publishTime>05/16/2020 15:51:57</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/TechExpertise/jasmine.jpg">
+      <publishTime>05/16/2020 16:07:53</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/TechExpertise/jenkins.jpg">
+      <publishTime>05/16/2020 16:08:05</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/TechExpertise/karma.jpg">
+      <publishTime>05/16/2020 16:07:53</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/TechExpertise/kotlin.jpg">
+      <publishTime>05/16/2020 15:51:57</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/TechExpertise/kuber.jpg">
+      <publishTime>05/16/2020 16:07:53</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/TechExpertise/meteor.jpg">
+      <publishTime>05/16/2020 15:51:57</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/TechExpertise/micro.jpg">
+      <publishTime>05/16/2020 15:17:34</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/TechExpertise/mocha.jpg">
+      <publishTime>05/16/2020 16:07:53</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/TechExpertise/mongodb.jpg">
+      <publishTime>05/16/2020 15:51:57</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/TechExpertise/mysql.jpg">
+      <publishTime>05/16/2020 15:51:57</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/TechExpertise/node.jpg">
+      <publishTime>05/16/2020 15:51:57</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/TechExpertise/postgresql.jpg">
+      <publishTime>05/16/2020 15:51:57</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/TechExpertise/prome.jpg">
+      <publishTime>05/16/2020 16:07:53</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/TechExpertise/python.jpg">
+      <publishTime>05/16/2020 15:51:57</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/TechExpertise/react.jpg">
+      <publishTime>05/16/2020 15:51:57</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/TechExpertise/reactnative.jpg">
+      <publishTime>05/16/2020 15:51:57</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/TechExpertise/selenium.jpg">
+      <publishTime>05/16/2020 16:07:53</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/TechExpertise/sqlserver.jpg">
+      <publishTime>05/16/2020 15:51:57</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/TechExpertise/swift.jpg">
+      <publishTime>05/16/2020 15:51:57</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/TechExpertise/typescript.jpg">
+      <publishTime>05/16/2020 15:51:57</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/TechExpertise/unit.jpg">
+      <publishTime>05/16/2020 16:07:53</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/TechExpertise/wcf.jpg">
+      <publishTime>05/16/2020 15:17:53</publishTime>
+    </File>
+    <File Include="images/upload/thbsoftwaresolution/TechExpertise/wpf.jpg">
+      <publishTime>05/16/2020 15:17:34</publishTime>
+    </File>
+    <File Include="images/Zoom-2.png">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="images/zoom.png">
+      <publishTime>05/17/2020 07:13:06</publishTime>
+    </File>
+    <File Include="js/bootstrap_min.js">
+      <publishTime>05/17/2020 06:54:11</publishTime>
+    </File>
+    <File Include="js/browser_zoom.js">
+      <publishTime>05/17/2020 06:54:11</publishTime>
+    </File>
+    <File Include="js/forms2/js/forms2.min.js">
+      <publishTime>05/17/2020 06:54:11</publishTime>
+    </File>
+    <File Include="js/forms2/js/forms2.min_2.js">
+      <publishTime>05/17/2020 06:54:11</publishTime>
+    </File>
+    <File Include="js/jquery_elevatezoom.js">
+      <publishTime>05/17/2020 06:54:11</publishTime>
+    </File>
+    <File Include="js/main-ie-min.js">
+      <publishTime>05/17/2020 06:54:11</publishTime>
+    </File>
+    <File Include="js/survey_jquery_min.js">
+      <publishTime>05/17/2020 06:54:11</publishTime>
+    </File>
+    <File Include="media/images/content/background/thinking/contact-avanade.jpg">
+      <publishTime>05/16/2020 16:43:33</publishTime>
+    </File>
+    <File Include="media/images/content/background/thinking/covid19-remote-working-hero %281%29.jpg">
+      <publishTime>05/16/2020 16:43:33</publishTime>
+    </File>
+    <File Include="media/images/content/background/thinking/covid19-remote-working-hero.jpg">
+      <publishTime>05/16/2020 16:43:33</publishTime>
+    </File>
+    <File Include="media/images/content/background/thinking/modern-workplace.jpg">
+      <publishTime>05/16/2020 16:43:33</publishTime>
+    </File>
+    <File Include="media/images/icons/socialmedia/facebook-lightgrey.svg">
+      <publishTime>05/16/2020 16:43:33</publishTime>
+    </File>
+    <File Include="media/images/icons/socialmedia/instagram-lightgrey.svg">
+      <publishTime>05/16/2020 16:43:33</publishTime>
+    </File>
+    <File Include="media/images/icons/socialmedia/linkedin-lightgrey.svg">
+      <publishTime>05/16/2020 16:43:33</publishTime>
+    </File>
+    <File Include="media/images/icons/socialmedia/pinterest-lightgrey.svg">
+      <publishTime>05/16/2020 16:43:33</publishTime>
+    </File>
+    <File Include="media/images/icons/socialmedia/twitter-lightgrey.svg">
+      <publishTime>05/16/2020 16:43:33</publishTime>
+    </File>
+    <File Include="media/logo/avanade-logo.svg">
+      <publishTime>05/16/2020 16:43:33</publishTime>
+    </File>
+    <File Include="media/logo/Company Logo with R Mark.svg">
+      <publishTime>05/19/2020 22:34:30</publishTime>
+    </File>
+    <File Include="media/logo/Cropped Company Logo with  Transparent Background.svg">
+      <publishTime>05/23/2020 15:24:58</publishTime>
+    </File>
+    <File Include="media/logo/home.svg">
+      <publishTime>05/16/2020 16:43:33</publishTime>
+    </File>
+    <File Include="media/logo/image001.jpg">
+      <publishTime>05/22/2020 17:53:29</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>06/03/2020 03:10:35</publishTime>
+    </File>
+    <File Include="Scripts/user_script/insight.min.js">
+      <publishTime>04/29/2020 15:23:33</publishTime>
+    </File>
+    <File Include="ui/1-10-2/themes/smoothness/images/animated-overlay.gif">
+      <publishTime>05/16/2020 16:51:30</publishTime>
+    </File>
+    <File Include="ui/1-10-2/themes/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>05/16/2020 16:51:30</publishTime>
+    </File>
+    <File Include="ui/1-10-2/themes/smoothness/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>05/16/2020 16:51:30</publishTime>
+    </File>
+    <File Include="ui/1-10-2/themes/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>05/16/2020 16:51:30</publishTime>
+    </File>
+    <File Include="ui/1-10-2/themes/smoothness/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>05/16/2020 16:51:30</publishTime>
+    </File>
+    <File Include="ui/1-10-2/themes/smoothness/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>05/16/2020 16:51:30</publishTime>
+    </File>
+    <File Include="ui/1-10-2/themes/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>05/16/2020 16:51:30</publishTime>
+    </File>
+    <File Include="ui/1-10-2/themes/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>05/16/2020 16:51:30</publishTime>
+    </File>
+    <File Include="ui/1-10-2/themes/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>05/16/2020 16:51:30</publishTime>
+    </File>
+    <File Include="ui/1-10-2/themes/smoothness/images/ui-icons_222222_256x240.png">
+      <publishTime>05/16/2020 16:51:30</publishTime>
+    </File>
+    <File Include="ui/1-10-2/themes/smoothness/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>05/16/2020 16:51:30</publishTime>
+    </File>
+    <File Include="ui/1-10-2/themes/smoothness/images/ui-icons_454545_256x240.png">
+      <publishTime>05/16/2020 16:51:30</publishTime>
+    </File>
+    <File Include="ui/1-10-2/themes/smoothness/images/ui-icons_888888_256x240.png">
+      <publishTime>05/16/2020 16:51:30</publishTime>
+    </File>
+    <File Include="ui/1-10-2/themes/smoothness/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>05/16/2020 16:51:30</publishTime>
+    </File>
+    <File Include="ui/1-10-2/themes/smoothness/jquery-ui.min.css">
+      <publishTime>05/16/2020 16:51:30</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>05/30/2020 10:42:53</publishTime>
+    </File>
+    <File Include="Views/Home/Careers.cshtml">
+      <publishTime>05/30/2020 10:42:53</publishTime>
+    </File>
+    <File Include="Views/Home/Contact_Us.cshtml">
+      <publishTime>06/03/2020 02:49:48</publishTime>
+    </File>
+    <File Include="Views/Home/Cookie_Policy.cshtml">
+      <publishTime>05/29/2020 12:06:46</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>05/24/2020 03:36:31</publishTime>
+    </File>
+    <File Include="Views/Home/Industries.cshtml">
+      <publishTime>05/30/2020 10:42:53</publishTime>
+    </File>
+    <File Include="Views/Home/Innovation_Center.cshtml">
+      <publishTime>05/30/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Views/Home/Orientation_Center.cshtml">
+      <publishTime>05/30/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Views/Home/Our_clients.cshtml">
+      <publishTime>05/30/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Views/Home/Our_Tech_Expertise.cshtml">
+      <publishTime>05/30/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Views/Home/Privacy_Statement.cshtml">
+      <publishTime>06/01/2020 22:11:10</publishTime>
+    </File>
+    <File Include="Views/Home/Products.cshtml">
+      <publishTime>05/30/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Views/Home/Staffing.cshtml">
+      <publishTime>05/30/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Views/Home/Technical_Services.cshtml">
+      <publishTime>05/30/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Views/Home/Technology_Center.cshtml">
+      <publishTime>05/30/2020 10:42:45</publishTime>
+    </File>
+    <File Include="Views/Home/Terms_of_Use.cshtml">
+      <publishTime>06/02/2020 16:40:35</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>04/08/2020 11:19:54</publishTime>
+    </File>
+    <File Include="Views/Shared/_Body.cshtml">
+      <publishTime>05/17/2020 07:31:41</publishTime>
+    </File>
+    <File Include="Views/Shared/_Footer.cshtml">
+      <publishTime>06/02/2020 14:05:46</publishTime>
+    </File>
+    <File Include="Views/Shared/_Header.cshtml">
+      <publishTime>06/03/2020 02:40:07</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>05/17/2020 06:55:59</publishTime>
+    </File>
+    <File Include="Views/Shared/_Partialfooter.cshtml">
+      <publishTime>06/03/2020 02:46:35</publishTime>
+    </File>
+    <File Include="Views/Shared/_PartialHead.cshtml">
+      <publishTime>06/03/2020 03:06:11</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>04/08/2020 11:19:54</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>04/08/2020 11:19:54</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/03/2020 03:10:31</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

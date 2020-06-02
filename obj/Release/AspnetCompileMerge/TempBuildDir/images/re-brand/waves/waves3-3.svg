@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1469px" height="170px" viewBox="0 0 1469 170" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.4" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Proposals" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="Background-Proposals-Copy" transform="translate(-2495.000000, -1897.000000)" fill="url(#linearGradient-1)">
+            <g id="BG---3" transform="translate(1133.000000, 1431.000000)">
+                <g id="waves" transform="translate(0.000000, 466.000000)">
+                    <path d="M2831.83375,169.58908 C2402.9033,169.58908 2566.78277,0.0093150105 2320.88066,0.0093150105 C2074.98013,0.0093150105 1789.86601,169.58908 1360.89134,169.58908 L2831.83375,169.58908 Z" id="Fill-8"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

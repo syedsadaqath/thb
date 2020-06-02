@@ -34,6 +34,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>7.2</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -43,10 +44,12 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>7.2</LangVersion>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
+    <Reference Include="System.Activities" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web.DynamicData" />
@@ -148,9 +151,11 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Entities\MailSender.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\ContactUS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -290,6 +295,8 @@
     <Content Include="images\favicon-196x196.png" />
     <Content Include="images\favicon-32x32.png" />
     <Content Include="images\favicon-96x96.png" />
+    <Content Include="images\footer\causewave - Copy.svg" />
+    <Content Include="images\footer\causewave.svg" />
     <Content Include="images\header\close_moblewhite_btn.png" />
     <Content Include="images\header\facebook-orange.png" />
     <Content Include="images\header\favicon.ico" />
@@ -362,6 +369,7 @@
     <Content Include="images\sharing-tooltip\Instagram.png" />
     <Content Include="images\svg\mobile\Expand.svg" />
     <Content Include="images\svg\OutsideLink.svg" />
+    <Content Include="images\upload\thbsoftwaresolution\iips.jpg" />
     <Content Include="images\upload\thbsoftwaresolution\new images\Collaboration 1.jpg" />
     <Content Include="images\upload\thbsoftwaresolution\new images\Collaboration 2.jpg" />
     <Content Include="images\upload\thbsoftwaresolution\new images\Company Logo with R Mark.jpg" />
@@ -448,6 +456,7 @@
     <Content Include="images\upload\thbsoftwaresolution\Our-Clients\Image.png" />
     <Content Include="images\upload\thbsoftwaresolution\Our-Clients\Text-Only.png" />
     <Content Include="images\upload\thbsoftwaresolution\serv_bann2.jpg" />
+    <Content Include="images\upload\thbsoftwaresolution\skilled-professiona.jpg" />
     <Content Include="images\upload\thbsoftwaresolution\TechExpertise\angular.jpg" />
     <Content Include="images\upload\thbsoftwaresolution\TechExpertise\appium.jpg" />
     <Content Include="images\upload\thbsoftwaresolution\TechExpertise\bootstrap.jpg" />
@@ -487,7 +496,7 @@
     <Content Include="images\download-orange.svg" />
     <Content Include="images\expand-orange.svg" />
     <Content Include="images\footer\back_to_top.svg" />
-    <Content Include="images\footer\causewave.svg" />
+    <Content Include="images\footer\causewavebkp.svg" />
     <Content Include="images\footer\close_orange1.svg" />
     <Content Include="images\footer\envelope.png" />
     <Content Include="images\footer\footerwave1.svg" />
@@ -573,10 +582,8 @@
     <Content Include="media\images\icons\socialmedia\pinterest-lightgrey.svg" />
     <Content Include="media\images\icons\socialmedia\twitter-lightgrey.svg" />
     <Content Include="media\logo\avanade-logo.svg" />
-    <Content Include="media\logo\Company Logo with R Mark %282%29.jpg" />
-    <Content Include="media\logo\Company Logo with R Mark %283%29.jpg" />
-    <Content Include="media\logo\Company Logo with R Mark.jpg" />
-    <Content Include="media\logo\Company-Logo-with-R-Mark-_2_.svg" />
+    <Content Include="media\logo\Company Logo with R Mark.svg" />
+    <Content Include="media\logo\Cropped Company Logo with  Transparent Background.svg" />
     <Content Include="media\logo\home.svg" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -595,7 +602,10 @@
     <Content Include="fonts\WeblySleek-UI\weblysleekuisb.ttf" />
     <Content Include="fonts\WeblySleek-UI\weblysleek_ui_normal.eot" />
     <Content Include="fonts\WeblySleek-UI\weblysleek_ui_normal.ttf" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\CustomProfile1.pubxml" />
     <None Include="Properties\PublishProfiles\THB-site20200516041410 - Web Deploy.pubxml" />
+    <Content Include="media\logo\image001.jpg" />
     <Content Include="Scripts\user_script\insight.min.js" />
     <Content Include="ui\1-10-2\themes\smoothness\images\animated-overlay.gif" />
     <Content Include="ui\1-10-2\themes\smoothness\images\ui-bg_flat_0_aaaaaa_40x100.png" />
@@ -641,12 +651,14 @@
     <Content Include="Views\Home\Contact_Us.cshtml" />
     <Content Include="Views\Shared\_PartialHead.cshtml" />
     <Content Include="Views\Shared\_Partialfooter.cshtml" />
+    <Content Include="Views\Home\Privacy_Statement.cshtml" />
+    <Content Include="Views\Home\Cookie_Policy.cshtml" />
+    <Content Include="Views\Home\Terms_of_Use.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="images-used\Media\images\solution\" />
     <Folder Include="media\images\solution\" />
-    <Folder Include="Models\" />
     <Folder Include="Views\Shared\pages\" />
   </ItemGroup>
   <ItemGroup>

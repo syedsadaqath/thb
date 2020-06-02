@@ -210,6 +210,7 @@ Avanade is the leading provider of innovative digital and cloud services, busine
 <script defer>var marketo_min_cdn = "https://pages.avanade.com/js/forms2/js/forms2.min.js"</script>
 <script defer>var swiper_jquery_min_Cdn = "https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.jquery.min.js"</script>
 <script defer>
+
     function LazyLoadMainJavascriptLibraries() {
 
         if (typeof swiper_jquery_min_Cdn !== "undefined") {
@@ -257,6 +258,8 @@ Avanade is the leading provider of innovative digital and cloud services, busine
 
             }
         }
+
+        document.getElementById('headerImages').removeAttribute("style");
     }
     window.addEventListener ?
         window.addEventListener("load", LazyLoadMainJavascriptLibraries, false)
@@ -271,30 +274,13 @@ Avanade is the leading provider of innovative digital and cloud services, busine
 
 
 
-<script type="text/plain" class="optanon-category-3">
-    function setCookie(cname, cvalue, days) {
-    var d = new Date();
-    var path = '/en';
-    d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000));
-    var expires = "expires=" + d.toUTCString();
-    document.cookie = cname + "=" + cvalue + "; " + expires + "; path=" + path + ";secure";
-    }
-
-    function setCookiePageAgnostic(cname, cvalue, days) {
-    var d = new Date();
-
-    d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000));
-    var expires = "expires=" + d.toUTCString();
-    document.cookie = cname + "=" + cvalue + "; " + expires + "; path=/;secure";
-    }
-</script>
 
 <script defer type="application/ld+json">
     {
     "context" : "http://schema.org",
     "type" : "WebSite",
-    "name" : "Avanade",
-    "url" : "https://avanade.com"
+    "name" : "TechHighBrows",
+    "url" : "https://TechHighBrows.com"
     }
 </script>
 

@@ -1,8 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+using System.Net;
+using System.Net.Mail;
+using System.Threading.Tasks;
+using System.Web.Helpers;
 using System.Web.Mvc;
+using THB_site.Entities;
+using THB_site.Models;
+
 
 namespace THB_site.Controllers
 {
@@ -56,7 +60,70 @@ namespace THB_site.Controllers
         {
             return View();
         }
+        
+        // get
         public ActionResult Contact_Us()
+        {            
+            return View(new ContactUS());
+        }   
+        
+        [HttpPost]
+        public ActionResult Contact_Us(ContactUS cu)
+        {
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    SendEmail(cu);
+                    cu.EmailSent = true;
+                    return View(cu);
+                }
+                catch (Exception)
+                {
+                    return View(cu);
+                }
+            }
+            return View(cu);
+        }
+
+        public void SendEmail(ContactUS cu)
+        {
+            string emailContent = "";
+            //var emailContent = string.Format(content, paymentInfo.InvoiceNumber, DateTime.Now.ToLongDateString(), DateTime.Now.ToLongTimeString()
+            //    , Request.Form["firstname"]
+            //    , Request.Form["email"]
+            //    , Request.Form["phone"]
+            //    , Request.Form["productinfo"]
+            //    , Request.Form["mihpayid"]
+            //    , Request.Form["txnid"]
+            //    , Request.Form["MachineMac"]
+            //    , paymentInfo.MachineIp
+            //    , paymentInfo.Browser
+            //    , Request.Form["status"]
+            //    , Request.Form["error"] + " " + Request.Form["error_Message"]
+            //    , paymentInfo.Amount,
+            //    paymentInfo.Currency);
+
+            emailContent = "First Name: " + cu.FirstName;
+            emailContent += "Last Name: " + cu.LastName;
+            emailContent += "Email: " + cu.Email;
+            emailContent += "Phone: " + cu.Phone;
+            emailContent += "Company:" + cu.Company;
+            emailContent += "ContactUs_Request:" + cu.ContactUs_Request;
+
+            MailSender send = new MailSender();
+            send.send("title of email", emailContent);
+        }
+
+        public ActionResult Privacy_Statement()
+        {
+            return View();
+        }
+        public ActionResult Cookie_Policy()
+        {
+            return View();
+        }
+        public ActionResult Terms_of_Use()
         {
             return View();
         }
