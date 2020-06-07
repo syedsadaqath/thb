@@ -1,0 +1,11 @@
+﻿@model ThbPayments.Areas.CCAvenue.EndModel
+
+<div>
+    @if (!string.IsNullOrEmpty(Model.TransactionNumber))
+    {
+        <label>Transcation number : @Model.TransactionNumber</label>
+    }<br />
+    <label>
+        @Model.Result
+    </label>
+</div>

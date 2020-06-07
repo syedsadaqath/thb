@@ -4,6 +4,25 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+<nav class="navbar rebrand-breadcrumb-module hidden-xs flame-1920">
+    <div class="container">
+        <div class="row">
+            <ol class="breadcrumb" vocab="http://schema.org/" typeof="BreadcrumbList">
+                <li property="itemListElement" typeof="ListItem">
+                    <a property="item" typeof="WebPage" href="@Url.Action("Index", "Home")">
+                        <span property="name">Home</span>
+                    </a>
+                    <meta property="position" content="1">
+                </li>
+                <li property="itemListElement" typeof="ListItem">
+                    Our Tech Expertise
+                    <meta property="position" content="2">
+                </li>
+            </ol>
+        </div>
+    </div>
+</nav>
+
 <section class="container-fluid" id="agile-hero">
     <section id="banner-section" class="hero-module hero-module-G-slider hero-rebrand-G">
         <div class="banner">
@@ -13,36 +32,12 @@
                 <!-- Indicators -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item fit-to-width active" data-position="1" style="background-image: url(&quot;/images-used/upload/thbsoftwaresolution/serv_bann2.jpg&quot;);">
-                        <img data-src="~/images/upload/thbsoftwaresolution/serv_bann2.jpg" src="~/images/upload/thbsoftwaresolution/serv_bann2.jpg" class="slides" alt="agile delivery">                <div class="container">
-                            <div class="carousel-caption">
-                                <a href="" class="rebrandAccessBuilt " target="_blank">
-                                    <div class="hero-feature-title " target="_blank">
-                                        <h1 class="feature-title fadeInUp animated">
-                                            Our Tech Expertise
-                                        </h1>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
+                        <img data-src="~/images/upload/thbsoftwaresolution/serv_bann2.jpg" src="~/images/upload/thbsoftwaresolution/serv_bann2.jpg" class="slides" alt="agile delivery">
                     </div>
                 </div>
             </div>
         </div>
     </section>
-</section>
-
-<section class="block-module webinars-text" id="webinars-text">
-    <div class="container">
-        <div class="col-md-10 col-md-offset-1 col-sm-12 full-width">
-            <div class="row">
-                <div class="col-md-10col-sm-10">
-                    <div class="right-side">
-                        <h4>Our Tech Stack</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </section>
 
 <section class="bg-waves search-module-grid author-result card bg1 waveID0">
@@ -61,8 +56,8 @@
             <div class="col-xs-12 col-sm-12 card-four card-four1" id="search-posts">
                 <!--Card Start here-->
                 <div class="card-default  img-text" style="margin-left: 0px;">
-                    <div class="img-wrapper fit-to-width" style="background-image: url('/images/upload/thbsoftwaresolution/TechExpertise/cplusplus.jpg');">
-                        <img data-src="~/images/upload/thbsoftwaresolution/TechExpertise/cplusplus.jpg" src="~/images/upload/thbsoftwaresolution/TechExpertise/cplusplus.jpg" class="" alt="ABB Client Stories" title="featured card">
+                    <div class="img-wrapper fit-to-width" style="background-image: url('/images/upload/thbsoftwaresolution/TechExpertise/C-PNG-File.png');">
+                        <img data-src="~/images/upload/thbsoftwaresolution/TechExpertise/C-PNG-File.png" src="~/images/upload/thbsoftwaresolution/TechExpertise/C-PNG-File.png" class="" alt="ABB Client Stories" title="featured card">
                     </div>
                 </div>
                 <div class="card-default  img-text">
@@ -371,6 +366,7 @@
     </div><!--eo container-->
 </section>
 
+
 <section class="rebrand-contact-us-module-A Contact" id="Contact">
     <div class="container">
         <div class="row">
@@ -378,10 +374,8 @@
                 <!-- for the image !-->
                 <!-- for the content !-->
                 <div class="rebranding-contactus-content">
-
                     <div class="col-sm-7 col-md-7 col-xs-12">
                         <div class="contactus-content">
-
                             <div id="componentlayout440517" class="row ">
                                 <div id="componentlayout440518" class="col-sm-6 ">
                                     <div id="componentlayout440519" class="touch_left flt ">
@@ -442,28 +436,13 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div>
-                                    <iframe width="325" height="280" frameborder="0" src="https://www.bing.com/maps/embed?h=280&w=325&cp=13.041713~77.613174&lvl=11&typ=d&sty=r&src=SHELL&FORM=MBEDV8" scrolling="no"></iframe>
-                                    <div style="white-space: nowrap; text-align: center; width: 325px; padding: 6px 0;">
-                                        <a id="largeMapLink" target="_blank" href="https://www.bing.com/maps?cp=13.041713~77.613174&amp;sty=r&amp;lvl=11&amp;FORM=MBEDLD">View Larger Map</a> &nbsp; | &nbsp;
-                                        <a id="dirMapLink" target="_blank" href="https://www.bing.com/maps/directions?cp=13.041713~77.613174&amp;sty=r&amp;lvl=11&amp;rtp=~pos.12.979200000000006_77.60660000000003____&amp;FORM=MBEDLD">Get Directions</a>
-                                    </div>
-                                </div>
                             </div>
-
                         </div>
-
                         <!-- for the button !-->
                     </div>
 
                     <div id="componentlayout440523" class="col-sm-4 col-md-4 col-xs-6 pull-right">
                         <div id="componentlayout440524" class="touch_right flt ">
-                            <div id="componentlayout440525" class="form_head flt ">
-                                <p>
-                                    write us<br>
-                                    <span>Get in touch</span>
-                                </p>
-                            </div>
                             <div id="componentlayout440526" class="form_div flt ">
                                 <style type="text/css">
                                     .form_div label {
@@ -512,84 +491,22 @@
                                         float: right;
                                         width: 100%;
                                     }
-
-                                    /*.form_div .submitbutton input {
-                                        padding: 10px 35px;
-                                        font-family: "Muli", sans-serif;
-                                        box-shadow: none;
-                                        border: none;
-                                        font-size: 16px;
-                                        font-weight: 600; }*/
-                                   
                                 </style>
-                                <div id="messagediv5759" style="padding-top:5px;"></div>
-                                <form method="post" class="form-inline" name="chkform" value="" enctype="multipart/form-data" action="/page/contact.html">
-                                    <fieldset>
-                                        <input type="hidden" name="formname" value="chkform1">
-                                        <input type="hidden" name="pageid" value="about-us">
-                                        <input type="hidden" name="formid" value="5759">
-                                        <input type="hidden" id="form_redirect5759" name="form_redirect5759" value="">
-                                        <input type="hidden" id="sitename" name="sitename" value="thbsoftwaresolution">
-                                        <div id="success5759" style="display:none">
-                                            <div class="successMessages" id="successmessage">
-                                                <div>
-                                                    <img src="/images/icons/iconInformation.gif">
-                                                    Thank You
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="outercoverfrontend" style="font-size:12px;">
-                                            <div class="allfieldsoutercover">
-                                                <div class="form-group fg wd_50 ">
-                                                    <label for="Name" class="col-md-4 control-label fl wd_50">
-                                                        Name
-                                                        <span> *</span>
-                                                    </label>
-                                                    <div class="col-md-3  col wd_50">
-                                                        <span class="help-block ms wd_50" id="message57591" style="font-size:9px;color:red"></span>
-                                                        <input type="text" id="Name" name="Name" title="Name" placeholder="Name" class="form-control">
-                                                    </div>
-                                                </div>
-                                                <div class="form-group fg wd_50 ">
-                                                    <label for="Email" class="col-md-4 control-label">
-                                                        Email
-                                                        <span> *</span>
-                                                    </label>
-                                                    <div class="col-md-3">
-                                                        <span class="help-block" id="message57592" style="font-size:9px;color:red"></span>
-                                                        <input type="text" id="Email" name="Email" title="Email" placeholder="Email" class="form-control">
-                                                    </div>
-                                                </div>
-                                                <div class="form-group fg ">
-                                                    <label for="Message" class="col-md-4 control-label fl">Message</label>
-                                                    <div class="col-md-3  col">
-                                                        <span class="help-block ms" id="message57593" style="font-size:9px;color:red"></span>
-                                                        <textarea class="form-control" name="Message" id="Message" title="Message" placeholder="Message"></textarea>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <script type="text/javascript">var jarray = new Array(); jarray[0] = "Name_Name"; jarray[1] = "Email_Email"; jarray[2] = "Message_Message";</script>
-                                            <style type="text/css">
-                                                .outerfieldcover input, .outerfieldcover textarea {
-                                                    font-family: verdana;
-                                                    font-size: 12px;
-                                                    font-weight: bold;
-                                                    color: #cdcdcd;
-                                                }
-                                            </style>
-                                            <script type="text/javascript">jQuery('.inputtext').each(function () { this.value = jQuery(this).attr('title'); jQuery(this).addClass('text-label'); jQuery(this).focus(function () { if (this.value == jQuery(this).attr('title')) { this.value = ''; jQuery(this).removeClass('text-label'); } }); jQuery(this).blur(function () { if (this.value == '') { this.value = jQuery(this).attr('title'); jQuery(this).addClass('text-label'); } }); }); jQuery(document).ready(function () { jQuery('.submitbutton input').click(function () { jQuery('.inputtext').each(function () { var check = jQuery(this).attr('name') + '_' + jQuery(this).attr('value'); if (jQuery.inArray(check, jarray) > -1) { this.value = jQuery(this).attr('value'); this.value = ''; } }); }) }); jQuery.noConflict();</script>
-
-                                            <div class="col-sm-3 col-md-3 col-xs-12 contact-button pull-right fadeIn zoomIn animated">
-                                                <a href="#" class="btn contactus-btn floating pull-right animated " type="submit" value="Submit" onclick="return validCaptcha();">Submit</a>
-                                            </div>
-                                        </div>
-                                    </fieldset>
-                                </form>
+                                <div id="messagediv5759"></div>
+                                <div style="padding-top:5px;padding-right:25px;">
+                                    <iframe width="325" height="280" frameborder="0" src="https://www.bing.com/maps/embed?h=280&w=325&cp=13.041713~77.613174&lvl=11&typ=d&sty=r&src=SHELL&FORM=MBEDV8" scrolling="no"></iframe>
+                                    <div style="white-space: nowrap; text-align: center; width: 325px; padding: 6px 0;">
+                                        <a id="largeMapLink" target="_blank" href="https://www.bing.com/maps?cp=13.041713~77.613174&amp;sty=r&amp;lvl=11&amp;FORM=MBEDLD">View Larger Map</a> &nbsp; | &nbsp;
+                                        <a id="dirMapLink" target="_blank" href="https://www.bing.com/maps/directions?cp=13.041713~77.613174&amp;sty=r&amp;lvl=11&amp;rtp=~pos.12.979200000000006_77.60660000000003____&amp;FORM=MBEDLD">Get Directions</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
+</section>
 </section>

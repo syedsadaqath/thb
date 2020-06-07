@@ -28,10 +28,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/08/2020 11:21:09</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>06/03/2020 03:11:02</publishTime>
+      <publishTime>06/07/2020 15:36:46</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>06/03/2020 03:11:01</publishTime>
+      <publishTime>06/07/2020 15:36:45</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
       <publishTime>06/27/2017 12:59:34</publishTime>
@@ -229,10 +229,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/01/2018 12:20:56</publishTime>
     </File>
     <File Include="bin/THB-site.dll">
-      <publishTime>06/03/2020 03:10:27</publishTime>
+      <publishTime>06/07/2020 15:36:22</publishTime>
     </File>
     <File Include="bin/THB-site.pdb">
-      <publishTime>06/03/2020 03:10:27</publishTime>
+      <publishTime>06/07/2020 15:36:22</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>01/23/2014 13:57:34</publishTime>
@@ -267,14 +267,23 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="css/bootstrap_min2.css">
       <publishTime>05/16/2020 16:51:30</publishTime>
     </File>
+    <File Include="css/browser-specific-min.css">
+      <publishTime>06/06/2020 20:37:21</publishTime>
+    </File>
     <File Include="css/custom-style.css">
-      <publishTime>05/20/2020 15:23:42</publishTime>
+      <publishTime>06/07/2020 04:59:42</publishTime>
     </File>
     <File Include="css/marketo-min.css">
-      <publishTime>05/21/2020 01:27:26</publishTime>
+      <publishTime>06/05/2020 14:56:53</publishTime>
     </File>
     <File Include="css/nouislider_min.css">
       <publishTime>05/16/2020 16:51:30</publishTime>
+    </File>
+    <File Include="css/thb.css">
+      <publishTime>06/07/2020 14:58:05</publishTime>
+    </File>
+    <File Include="css/THBLogo_V1.0_344x223 %281%29 %281%29.png">
+      <publishTime>06/07/2020 13:32:01</publishTime>
     </File>
     <File Include="favicon.ico">
       <publishTime>05/30/2020 17:17:13</publishTime>
@@ -331,10 +340,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/31/2020 14:16:59</publishTime>
     </File>
     <File Include="images-used/images/footer/back_to_top.svg">
-      <publishTime>04/01/2020 16:32:25</publishTime>
+      <publishTime>06/05/2020 14:41:52</publishTime>
     </File>
     <File Include="images-used/images/footer/Causewave.svg">
-      <publishTime>04/01/2020 16:32:25</publishTime>
+      <publishTime>06/05/2020 14:41:52</publishTime>
     </File>
     <File Include="images-used/images/footer/envelope.png">
       <publishTime>04/01/2020 16:32:25</publishTime>
@@ -391,7 +400,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/01/2020 16:32:25</publishTime>
     </File>
     <File Include="images-used/images/re-brand/hero_card-externallink-orange.svg">
-      <publishTime>04/01/2020 16:32:25</publishTime>
+      <publishTime>06/05/2020 14:41:52</publishTime>
     </File>
     <File Include="images-used/images/re-brand/hero_card-play_video.svg">
       <publishTime>04/01/2020 16:32:25</publishTime>
@@ -454,7 +463,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/01/2020 16:32:25</publishTime>
     </File>
     <File Include="images-used/Media/logo/avanade-logo.svg">
-      <publishTime>04/01/2020 16:32:25</publishTime>
+      <publishTime>06/05/2020 14:41:52</publishTime>
     </File>
     <File Include="images-used/Media/logo/Company Logo with R Mark %282%29.jpg">
       <publishTime>05/16/2020 01:42:06</publishTime>
@@ -529,19 +538,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/17/2020 07:13:01</publishTime>
     </File>
     <File Include="images/assets/Facebook.svg">
-      <publishTime>05/17/2020 07:13:01</publishTime>
+      <publishTime>06/05/2020 14:41:53</publishTime>
     </File>
     <File Include="images/assets/Google.svg">
-      <publishTime>05/17/2020 07:13:01</publishTime>
+      <publishTime>06/05/2020 14:41:53</publishTime>
     </File>
     <File Include="images/assets/left_arrow.svg">
       <publishTime>05/17/2020 07:13:01</publishTime>
     </File>
     <File Include="images/assets/Linkedin.svg">
-      <publishTime>05/17/2020 07:13:01</publishTime>
+      <publishTime>06/05/2020 14:41:53</publishTime>
     </File>
     <File Include="images/assets/Mail.svg">
-      <publishTime>05/17/2020 07:13:01</publishTime>
+      <publishTime>06/05/2020 14:41:53</publishTime>
     </File>
     <File Include="images/assets/Pinterest.svg">
       <publishTime>05/17/2020 07:13:01</publishTime>
@@ -559,31 +568,31 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/17/2020 07:13:01</publishTime>
     </File>
     <File Include="images/assets/Twitter.svg">
-      <publishTime>05/17/2020 07:13:01</publishTime>
+      <publishTime>06/05/2020 14:41:53</publishTime>
     </File>
     <File Include="images/avanade_logo.svg">
-      <publishTime>05/17/2020 07:13:01</publishTime>
+      <publishTime>06/05/2020 14:41:53</publishTime>
     </File>
     <File Include="images/big-expand.svg">
-      <publishTime>05/17/2020 07:13:04</publishTime>
+      <publishTime>06/05/2020 14:41:53</publishTime>
     </File>
     <File Include="images/big-video-withoutcircle.svg">
-      <publishTime>05/17/2020 07:13:04</publishTime>
+      <publishTime>06/05/2020 14:41:53</publishTime>
     </File>
     <File Include="images/big-video.svg">
-      <publishTime>05/17/2020 07:13:04</publishTime>
+      <publishTime>06/05/2020 14:41:53</publishTime>
     </File>
     <File Include="images/Blogs/blog_read_more.svg">
       <publishTime>05/17/2020 07:13:04</publishTime>
     </File>
     <File Include="images/Blogs/breadcrumbs-orange.svg">
-      <publishTime>05/17/2020 07:13:04</publishTime>
+      <publishTime>06/05/2020 14:41:53</publishTime>
     </File>
     <File Include="images/Blogs/close-white.svg">
       <publishTime>05/17/2020 07:13:04</publishTime>
     </File>
     <File Include="images/Blogs/close_orange.svg">
-      <publishTime>05/17/2020 07:13:04</publishTime>
+      <publishTime>06/05/2020 14:41:53</publishTime>
     </File>
     <File Include="images/Blogs/drop_down.svg">
       <publishTime>05/17/2020 07:13:04</publishTime>
@@ -604,10 +613,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/17/2020 07:13:04</publishTime>
     </File>
     <File Include="images/Blogs/SearchOrange.svg">
-      <publishTime>05/17/2020 07:13:04</publishTime>
+      <publishTime>06/05/2020 14:41:53</publishTime>
     </File>
     <File Include="images/Blogs/search_orange.svg">
-      <publishTime>05/17/2020 07:13:04</publishTime>
+      <publishTime>06/05/2020 14:41:53</publishTime>
     </File>
     <File Include="images/Blogs/Tag.svg">
       <publishTime>05/17/2020 07:13:04</publishTime>
@@ -679,7 +688,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/17/2020 07:13:04</publishTime>
     </File>
     <File Include="images/Cookies/cookie_policy.svg">
-      <publishTime>05/17/2020 07:13:04</publishTime>
+      <publishTime>06/05/2020 14:41:53</publishTime>
     </File>
     <File Include="images/Cookies/save_icon.svg">
       <publishTime>05/17/2020 07:13:04</publishTime>
@@ -688,7 +697,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/17/2020 07:13:04</publishTime>
     </File>
     <File Include="images/expand-orange.svg">
-      <publishTime>05/17/2020 07:13:04</publishTime>
+      <publishTime>06/05/2020 14:41:53</publishTime>
     </File>
     <File Include="images/favicon-128.png">
       <publishTime>05/30/2020 18:38:24</publishTime>
@@ -706,19 +715,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/17/2020 07:13:04</publishTime>
     </File>
     <File Include="images/footer/back_to_top.svg">
-      <publishTime>05/16/2020 17:08:48</publishTime>
+      <publishTime>06/05/2020 14:41:53</publishTime>
     </File>
     <File Include="images/footer/causewave - Copy.svg">
-      <publishTime>05/17/2020 18:17:19</publishTime>
+      <publishTime>06/05/2020 14:41:53</publishTime>
     </File>
     <File Include="images/footer/causewave.svg">
       <publishTime>05/17/2020 18:17:45</publishTime>
     </File>
     <File Include="images/footer/causewavebkp.svg">
-      <publishTime>05/17/2020 07:13:04</publishTime>
+      <publishTime>06/05/2020 14:41:53</publishTime>
     </File>
     <File Include="images/footer/close_orange1.svg">
-      <publishTime>05/17/2020 07:13:04</publishTime>
+      <publishTime>06/05/2020 14:41:53</publishTime>
     </File>
     <File Include="images/footer/envelope.png">
       <publishTime>05/16/2020 17:08:48</publishTime>
@@ -826,7 +835,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/17/2020 07:13:05</publishTime>
     </File>
     <File Include="images/play-video-orange.svg">
-      <publishTime>05/17/2020 07:13:05</publishTime>
+      <publishTime>06/05/2020 14:41:53</publishTime>
     </File>
     <File Include="images/play.png">
       <publishTime>05/17/2020 07:13:05</publishTime>
@@ -862,13 +871,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/17/2020 07:13:05</publishTime>
     </File>
     <File Include="images/re-brand/expand-orange.svg">
-      <publishTime>05/17/2020 07:13:05</publishTime>
+      <publishTime>06/05/2020 14:41:53</publishTime>
     </File>
     <File Include="images/re-brand/expand-white.svg">
       <publishTime>05/17/2020 07:13:05</publishTime>
     </File>
     <File Include="images/re-brand/external.svg">
-      <publishTime>05/17/2020 07:13:05</publishTime>
+      <publishTime>06/05/2020 14:41:53</publishTime>
     </File>
     <File Include="images/re-brand/flame-1920.png">
       <publishTime>05/17/2020 07:13:05</publishTime>
@@ -907,7 +916,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/17/2020 07:13:05</publishTime>
     </File>
     <File Include="images/re-brand/hero_card-externallink-orange.svg">
-      <publishTime>05/17/2020 07:13:05</publishTime>
+      <publishTime>06/05/2020 14:41:53</publishTime>
     </File>
     <File Include="images/re-brand/hero_card-externallink-white.svg">
       <publishTime>05/17/2020 07:13:05</publishTime>
@@ -937,7 +946,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/17/2020 07:13:05</publishTime>
     </File>
     <File Include="images/re-brand/play-video-orange.svg">
-      <publishTime>05/17/2020 07:13:05</publishTime>
+      <publishTime>06/05/2020 14:41:53</publishTime>
     </File>
     <File Include="images/re-brand/solar-1920.png">
       <publishTime>05/17/2020 07:13:05</publishTime>
@@ -1009,7 +1018,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/17/2020 07:13:05</publishTime>
     </File>
     <File Include="images/read-more-orange.svg">
-      <publishTime>05/17/2020 07:13:05</publishTime>
+      <publishTime>06/05/2020 14:41:53</publishTime>
     </File>
     <File Include="images/refresh.png">
       <publishTime>05/17/2020 07:13:05</publishTime>
@@ -1021,7 +1030,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/17/2020 07:13:06</publishTime>
     </File>
     <File Include="images/share-orange.svg">
-      <publishTime>05/17/2020 07:13:06</publishTime>
+      <publishTime>06/05/2020 14:41:53</publishTime>
     </File>
     <File Include="images/sharing-tooltip/Envelope.png">
       <publishTime>05/17/2020 07:13:06</publishTime>
@@ -1045,10 +1054,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/17/2020 07:13:06</publishTime>
     </File>
     <File Include="images/sharing-tooltip/viadeo-orange.svg">
-      <publishTime>05/17/2020 07:13:06</publishTime>
+      <publishTime>06/05/2020 14:41:53</publishTime>
     </File>
     <File Include="images/sharing-tooltip/xing-orange.svg">
-      <publishTime>05/17/2020 07:13:06</publishTime>
+      <publishTime>06/05/2020 14:41:53</publishTime>
     </File>
     <File Include="images/svg/close-orange.svg">
       <publishTime>05/17/2020 07:13:06</publishTime>
@@ -1081,16 +1090,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/17/2020 07:13:06</publishTime>
     </File>
     <File Include="images/svg/mobile/Expand.svg">
-      <publishTime>05/17/2020 07:13:06</publishTime>
+      <publishTime>06/05/2020 14:41:52</publishTime>
     </File>
     <File Include="images/svg/mobile/facebook.svg">
-      <publishTime>05/17/2020 07:13:06</publishTime>
+      <publishTime>06/05/2020 14:41:52</publishTime>
     </File>
     <File Include="images/svg/mobile/googleplus.svg">
-      <publishTime>05/17/2020 07:13:06</publishTime>
+      <publishTime>06/05/2020 14:41:52</publishTime>
     </File>
     <File Include="images/svg/mobile/linkedin.svg">
-      <publishTime>05/17/2020 07:13:06</publishTime>
+      <publishTime>06/05/2020 14:41:52</publishTime>
     </File>
     <File Include="images/svg/mobile/minus-white.svg">
       <publishTime>05/17/2020 07:13:06</publishTime>
@@ -1099,16 +1108,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/17/2020 07:13:06</publishTime>
     </File>
     <File Include="images/svg/mobile/plus-orange.svg">
-      <publishTime>05/17/2020 07:13:06</publishTime>
+      <publishTime>06/05/2020 14:41:52</publishTime>
     </File>
     <File Include="images/svg/mobile/right.svg">
-      <publishTime>05/17/2020 07:13:06</publishTime>
+      <publishTime>06/05/2020 14:41:52</publishTime>
     </File>
     <File Include="images/svg/mobile/twitter.svg">
-      <publishTime>05/17/2020 07:13:06</publishTime>
+      <publishTime>06/05/2020 14:41:52</publishTime>
     </File>
     <File Include="images/svg/OutsideLink.svg">
-      <publishTime>05/17/2020 07:13:06</publishTime>
+      <publishTime>06/05/2020 14:41:52</publishTime>
     </File>
     <File Include="images/svg/pinterest-lightgrey.svg">
       <publishTime>05/17/2020 07:13:06</publishTime>
@@ -1404,6 +1413,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="images/upload/thbsoftwaresolution/TechExpertise/bootstrap.jpg">
       <publishTime>05/16/2020 15:51:57</publishTime>
     </File>
+    <File Include="images/upload/thbsoftwaresolution/TechExpertise/C-PNG-File.png">
+      <publishTime>06/05/2020 22:06:30</publishTime>
+    </File>
     <File Include="images/upload/thbsoftwaresolution/TechExpertise/cocandobjective.jpg">
       <publishTime>05/16/2020 15:51:57</publishTime>
     </File>
@@ -1516,7 +1528,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/17/2020 06:54:11</publishTime>
     </File>
     <File Include="js/main-ie-min.js">
-      <publishTime>05/17/2020 06:54:11</publishTime>
+      <publishTime>06/06/2020 21:36:49</publishTime>
     </File>
     <File Include="js/survey_jquery_min.js">
       <publishTime>05/17/2020 06:54:11</publishTime>
@@ -1549,7 +1561,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/16/2020 16:43:33</publishTime>
     </File>
     <File Include="media/logo/avanade-logo.svg">
-      <publishTime>05/16/2020 16:43:33</publishTime>
+      <publishTime>06/05/2020 14:41:52</publishTime>
     </File>
     <File Include="media/logo/Company Logo with R Mark.svg">
       <publishTime>05/19/2020 22:34:30</publishTime>
@@ -1557,14 +1569,35 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="media/logo/Cropped Company Logo with  Transparent Background.svg">
       <publishTime>05/23/2020 15:24:58</publishTime>
     </File>
+    <File Include="media/logo/Cropped Transparent Background.svg">
+      <publishTime>06/04/2020 13:28:42</publishTime>
+    </File>
     <File Include="media/logo/home.svg">
       <publishTime>05/16/2020 16:43:33</publishTime>
     </File>
     <File Include="media/logo/image001.jpg">
       <publishTime>05/22/2020 17:53:29</publishTime>
     </File>
+    <File Include="media/logo/input.png">
+      <publishTime>06/07/2020 13:39:14</publishTime>
+    </File>
+    <File Include="media/logo/output-onlinepngtools %281%29.png">
+      <publishTime>06/07/2020 13:37:39</publishTime>
+    </File>
+    <File Include="media/logo/output-onlinepngtools.png">
+      <publishTime>06/07/2020 13:34:29</publishTime>
+    </File>
+    <File Include="media/logo/t9hfe-sojex.svg">
+      <publishTime>06/04/2020 00:04:44</publishTime>
+    </File>
+    <File Include="media/logo/THBLogo_V1.0_344x223 %281%29 %281%29.png">
+      <publishTime>06/07/2020 13:32:12</publishTime>
+    </File>
+    <File Include="media/logo/THBLogo_V1.0_344x223 %281%29.png">
+      <publishTime>06/07/2020 13:35:37</publishTime>
+    </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>06/03/2020 03:10:35</publishTime>
+      <publishTime>06/07/2020 15:36:27</publishTime>
     </File>
     <File Include="Scripts/user_script/insight.min.js">
       <publishTime>04/29/2020 15:23:33</publishTime>
@@ -1615,52 +1648,52 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/16/2020 16:51:30</publishTime>
     </File>
     <File Include="Views/Home/About.cshtml">
-      <publishTime>05/30/2020 10:42:53</publishTime>
+      <publishTime>06/07/2020 12:16:24</publishTime>
     </File>
     <File Include="Views/Home/Careers.cshtml">
-      <publishTime>05/30/2020 10:42:53</publishTime>
+      <publishTime>06/07/2020 12:39:41</publishTime>
     </File>
     <File Include="Views/Home/Contact_Us.cshtml">
-      <publishTime>06/03/2020 02:49:48</publishTime>
+      <publishTime>06/06/2020 02:47:44</publishTime>
     </File>
     <File Include="Views/Home/Cookie_Policy.cshtml">
-      <publishTime>05/29/2020 12:06:46</publishTime>
+      <publishTime>06/03/2020 03:14:21</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>05/24/2020 03:36:31</publishTime>
+      <publishTime>06/07/2020 00:15:43</publishTime>
     </File>
     <File Include="Views/Home/Industries.cshtml">
-      <publishTime>05/30/2020 10:42:53</publishTime>
+      <publishTime>06/07/2020 02:36:43</publishTime>
     </File>
     <File Include="Views/Home/Innovation_Center.cshtml">
-      <publishTime>05/30/2020 10:42:52</publishTime>
+      <publishTime>06/07/2020 15:33:16</publishTime>
     </File>
     <File Include="Views/Home/Orientation_Center.cshtml">
-      <publishTime>05/30/2020 10:42:52</publishTime>
+      <publishTime>06/07/2020 12:29:56</publishTime>
     </File>
     <File Include="Views/Home/Our_clients.cshtml">
-      <publishTime>05/30/2020 10:42:52</publishTime>
+      <publishTime>06/07/2020 05:03:22</publishTime>
     </File>
     <File Include="Views/Home/Our_Tech_Expertise.cshtml">
-      <publishTime>05/30/2020 10:42:52</publishTime>
+      <publishTime>06/07/2020 03:17:05</publishTime>
     </File>
     <File Include="Views/Home/Privacy_Statement.cshtml">
-      <publishTime>06/01/2020 22:11:10</publishTime>
+      <publishTime>06/07/2020 01:23:32</publishTime>
     </File>
     <File Include="Views/Home/Products.cshtml">
-      <publishTime>05/30/2020 10:42:52</publishTime>
+      <publishTime>06/07/2020 12:32:28</publishTime>
     </File>
     <File Include="Views/Home/Staffing.cshtml">
-      <publishTime>05/30/2020 10:42:52</publishTime>
+      <publishTime>06/07/2020 13:20:24</publishTime>
     </File>
     <File Include="Views/Home/Technical_Services.cshtml">
-      <publishTime>05/30/2020 10:42:52</publishTime>
+      <publishTime>06/07/2020 13:18:54</publishTime>
     </File>
     <File Include="Views/Home/Technology_Center.cshtml">
-      <publishTime>05/30/2020 10:42:45</publishTime>
+      <publishTime>06/07/2020 13:16:10</publishTime>
     </File>
     <File Include="Views/Home/Terms_of_Use.cshtml">
-      <publishTime>06/02/2020 16:40:35</publishTime>
+      <publishTime>06/07/2020 01:24:23</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>04/08/2020 11:19:54</publishTime>
@@ -1669,19 +1702,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/17/2020 07:31:41</publishTime>
     </File>
     <File Include="Views/Shared/_Footer.cshtml">
-      <publishTime>06/02/2020 14:05:46</publishTime>
+      <publishTime>06/07/2020 02:09:25</publishTime>
     </File>
     <File Include="Views/Shared/_Header.cshtml">
-      <publishTime>06/03/2020 02:40:07</publishTime>
+      <publishTime>06/07/2020 14:53:58</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>05/17/2020 06:55:59</publishTime>
+      <publishTime>06/07/2020 02:17:06</publishTime>
     </File>
     <File Include="Views/Shared/_Partialfooter.cshtml">
-      <publishTime>06/03/2020 02:46:35</publishTime>
+      <publishTime>06/07/2020 02:12:08</publishTime>
     </File>
     <File Include="Views/Shared/_PartialHead.cshtml">
-      <publishTime>06/03/2020 03:06:11</publishTime>
+      <publishTime>06/07/2020 02:25:21</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>04/08/2020 11:19:54</publishTime>
@@ -1690,7 +1723,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/08/2020 11:19:54</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>06/03/2020 03:10:31</publishTime>
+      <publishTime>06/03/2020 03:34:37</publishTime>
     </File>
   </ItemGroup>
 </Project>

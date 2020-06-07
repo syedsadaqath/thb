@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MailApi;
+using System;
 using System.Net;
 using System.Net.Mail;
 using System.Threading.Tasks;
@@ -111,8 +112,8 @@ namespace THB_site.Controllers
             emailContent += "Company:" + cu.Company;
             emailContent += "ContactUs_Request:" + cu.ContactUs_Request;
 
-            MailSender send = new MailSender();
-            send.send("title of email", emailContent);
+            MailSend send = new MailSend();
+            send.Send("title of email", emailContent);
         }
 
         public ActionResult Privacy_Statement()

@@ -3,19 +3,20 @@ using System.Configuration;
 using System.Net;
 using System.Net.Mail;
 
-namespace THB_site.Entities
+namespace MailApi
 {
-    public class MailSender
+    public class MailSend
     {
-        public MailSender()
+        public MailSend()
         {
         }
         public string[] ToEmailAddress = ConfigurationManager.AppSettings["ToEmailId"].Split(',');
-        public static string FromEmailId = ConfigurationManager.AppSettings["FromEmailId"];
-        public static string SmtpUserName = ConfigurationManager.AppSettings["SmtpUserName"];
-        public static string SmtpUserPassword = ConfigurationManager.AppSettings["SmtpPassword"];
-        public static string SmtpServerUri = ConfigurationManager.AppSettings["SmtpServerUri"];
-        public bool send(string subject, string content)
+        public static string FromEmailId= ConfigurationManager.AppSettings["FromEmailId"];
+        public static string SmtpUserName= ConfigurationManager.AppSettings["SmtpUserName"];
+        public static string SmtpUserPassword= ConfigurationManager.AppSettings["SmtpPassword"];
+        public static string SmtpUserDomain = ConfigurationManager.AppSettings["SmtpUserDomain"];
+        public static string SmtpServerUri= ConfigurationManager.AppSettings["SmtpServerUri"];
+        public bool Send(string subject, string content)
         {
             //FromEmailId = "one@atst.asoft.in";
             //SmtpUserName = "one@atst.asoft.in";
@@ -28,8 +29,10 @@ namespace THB_site.Entities
             ////StringBuilder sb = new StringBuilder();
             ////StringWriter sw = new StringWriter(sb);
             ////Html32TextWriter htw = new Html32TextWriter(sw);
-            MailMessage m = new MailMessage();
-            m.From = new MailAddress(FromEmailId); //"one@atst.asoft.in");//msend.dyndns-work.com");
+            MailMessage m = new MailMessage
+            {
+                From = new MailAddress(FromEmailId) //"one@atst.asoft.in");//msend.dyndns-work.com");
+            };
             foreach (string mids in ToEmailAddress)
             {
                 if (string.IsNullOrEmpty(mids))
@@ -38,7 +41,7 @@ namespace THB_site.Entities
                 {
                     m.To.Add(new MailAddress(mids));
                 }
-                catch
+                catch(Exception)
                 {
                     return false;
                 }
@@ -47,11 +50,14 @@ namespace THB_site.Entities
                 return false;
             m.Subject = subject;
             m.Body = content;
-            SmtpClient smtp = new SmtpClient(SmtpServerUri);//"mtest.asoft.in");//atst.asoft.in");//msend.asoft.in");//atst.asoft.in");//atst.asoft.in");
-            NetworkCredential SMTPUserInfo = new NetworkCredential(SmtpUserName, SmtpUserPassword);
-            smtp.Credentials = SMTPUserInfo;
-            smtp.Port = 587;
-            smtp.EnableSsl = true;
+            SmtpClient smtp = new SmtpClient
+            {
+                Port = 587,
+                EnableSsl = true,
+                Host = SmtpServerUri,
+                UseDefaultCredentials = false,
+                Credentials = new NetworkCredential(SmtpUserName, SmtpUserPassword, SmtpUserDomain)
+            };//"mtest.asoft.in");//atst.asoft.in");//msend.asoft.in");//atst.asoft.in");//atst.asoft.in");
             try
             {
                 //smtp.Port = 2525;
@@ -62,7 +68,7 @@ namespace THB_site.Entities
                 smtp.Send(m);
                 return true;
             }
-            catch (Exception ex)
+            catch(Exception)
             {
                 //log l = new log();
                 //l.write(e.Message);
@@ -70,7 +76,7 @@ namespace THB_site.Entities
             }
             finally
             {
-                smtp = null;
+                smtp.Dispose();
             }
         }
     }

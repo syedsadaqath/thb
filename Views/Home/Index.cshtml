@@ -4,54 +4,43 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<section id="banner-section" class="hero-module hero-rebrand hero-module-G-slider hero-rebrand-A hero-module-rebrand-A hero-home">
-    <div class="banner">
-        <!-- Carousel
-        ================================================== -->
 
-        <div id="myCarousel" @*class="carousel slide"*@ data-ride="carousel">
+<section class="container-fluid" id="about-avanade-hero-module">
+    <section id="banner-section" class="hero-module hero-module-G-slider hero-rebrand-G">
+        <div class="banner">
+            <!-- Carousel
+            ================================================== -->
+            <div id="ModuleGCarousel" @*class="carousel slide" *@ data-ride="carousel">
+                <!-- Indicators -->
+                <div class="carousel-inner" role="listbox">
 
-            <div class="carousel-inner fit-to-width" id="HeroReBrand" role="listbox" style="background-image: url('/images/upload/thbsoftwaresolution/home_bann_1.jpg');background-position-y: 35% !important; background-size: 125%;">
-                <img class="highcontrast hero " src="/images/upload/thbsoftwaresolution/home_bann_1.jpg" alt="First slide">
-                <div class="item active" data-position="1" style="background-size: 125%; height: 500px;">
-                    <div class="container">
-                        <div class="carousel-caption top" style="height: 655px;">
-                            <div class="content">
-                                <div class="hero-feature-title">                                                                      
-                                    <img src="/images/upload/thbsoftwaresolution/home_bann_1.jpg" class="slides" alt="remote working">
-                                    <div class="feature-summary">
-                                        <p>
-                                        </p>
-                                    </div>
-                                    <div class="btn rebrand-hero-btn" aria-label="Learn more about thinking" role="button">@Html.ActionLink("Learn More", "About", "Home", null, new { id = "01", style = "color:orangered" })</div>
+                    <div class="item active fit-to-width" data-position="1"
+                         style="background-image: url(&quot;/images-used/upload/thbsoftwaresolution/About-us/about-bann.jpg&quot;);">
+                        <img data-src="~/images/upload/thbsoftwaresolution/About-us/about-bann.jpg"
+                             src="~/images/upload/thbsoftwaresolution/About-us/about-bann.jpg"
+                             class="slides" alt="About">
+                        <div class="container">
+                            <div class="carousel-caption lazy-load-box">
+                                <div class="share sharevideo" data-shareurl="" data-sharemedia="" data-shareimage=""
+                                     data-sharetitle="Our Story"
+                                     data-sharedesc="When the power of people meets the Microsoft ecosystem, that&amp;rsquo;s Avanade. That&amp;rsquo;s #humanimpact."
+                                     data-sharetwittertitle="Our Story"
+                                     data-sharetwitterdesc="When the power of people meets the Microsoft ecosystem, that&amp;rsquo;s Avanade. That&amp;rsquo;s #humanimpact."
+                                     data-itemid="996771ce-3272-4be3-9137-dac18cd4d441">                                    
+                                        <img class="" src="~/images/upload/thbsoftwaresolution/home_bann_1.jpg"
+                                             data-src="/images/cards-icons/share-btn.png" alt="Share button">
+                                    </a>
                                 </div>
-
                             </div>
-                          
                         </div>
-
                     </div>
-
                 </div>
-                <!--Arrows left right-->
-                <div class="container-carousel-ctr">
-                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                </div>
-                <!---End Arrows-->
             </div>
-            <!--End Carousel-inner-->
         </div>
-        <!---End Carousel-->
-    </div>
-    <!---End Banner-->
+    </section>
+
 </section>
+
 
 <section data-content="laboutlavanadeltabl1"
          class="card-a-module img-text tabbed-a-half-image about-avanade-tab-1 tab-one tab_card_module desktopTabbedMod mobileTabbedMod bg-waves bg5 waveID0"
@@ -102,7 +91,7 @@
                             <input id="hddnAvaVideo-about-avanade-tab-1-tab-0" name="hddnAvaVideo-about-avanade-tab-1-tab-0" type="hidden" value="1">
                             <div class="card-a-multiple img-text no-share  no-btn " id="card-2">
                                     <div class="multiple-card-image">
-                                        <img data-src="~/images/upload/thbsoftwaresolution/iips.jpg?ver=3&amp;la=en&amp;w=560&amp;hash=8F0B7919B2050F189579075F810496AB"
+                                        <img data-src="~/images/upload/thbsoftwaresolution/iips.jpg"
                                              src="~/images/upload/thbsoftwaresolution/iips.jpg"
                                              class="img-responsive ga-retabbed-img-about-avanade-tab-0-1-0"
                                              alt="digital innovation">
@@ -126,7 +115,7 @@
 
                             <div class="card-a-multiple img-text no-share  no-btn " id="card-3">
                                     <div class="multiple-card-image">
-                                        <img data-src="~/images/upload/thbsoftwaresolution/Collaboration1.jpg?ver=3&amp;la=en&amp;w=560&amp;hash=FC9148094FE32EDDD5BBDAFACB74AD93"
+                                        <img data-src="~/images/upload/thbsoftwaresolution/Collaboration1.jpg"
                                              src="~/images/upload/thbsoftwaresolution/Collaboration1.jpg"
                                              class="img-responsive ga-retabbed-img-about-avanade-tab-1-1-3"
                                              alt="diversity and inclusion">
@@ -148,7 +137,7 @@
 
                             <div class="card-a-multiple img-text no-share  no-btn " id="card-4">
                                     <div class="multiple-card-image">
-                                        <img data-src="~/images/upload/thbsoftwaresolution/skilled-professiona.jpg?ver=3&amp;la=en&amp;w=560&amp;hash=fc9148094fe32eddd5bbdafacb74ad93"
+                                        <img data-src="~/images/upload/thbsoftwaresolution/skilled-professiona.jpg"
                                               src="~/images/upload/thbsoftwaresolution/skilled-professiona.jpg" class="img-responsive ga-retabbed-img-about-avanade-tab-1-1-3" alt="diversity and inclusion">
                                     </div>
                                     <div class="card-a-body ga-retabbed-details ga-card-about-avanade-tab-1-1-3 " data-position="1-3">
@@ -183,7 +172,6 @@
     <div class="bg-wrapper"></div>
     <div class="container">
         <div class="module-title bg-header-title" style="">
-            <h2>WE HAVE UNIQUE PRODUCTS</h2>
             <h2>OUR PRODUCTS</h2>
         </div>
 
@@ -192,8 +180,8 @@
                 <div>
                     <div class="card " id="card-homepage-6cards">                        
                             <div class="img-container img-fluid">
-                                <img data-src="~/images/upload/thbsoftwaresolution/Career/nw_pd (1).jpg?ver=1&amp;la=en&amp;w=320&amp;hash=b4e5ba7636dec6e92c7c77529f28e5c3"
-                                     src="~/images/upload/thbsoftwaresolution/Career/nw_pd (1).jpg?ver=1&amp;la=en&amp;w=320&amp;hash=b4e5ba7636dec6e92c7c77529f28e5c3" class="img-fluid" alt="Your career in technology">
+                                <img data-src="~/images/upload/thbsoftwaresolution/Career/nw_pd (1).jpg"
+                                     src="~/images/upload/thbsoftwaresolution/Career/nw_pd (1).jpg" class="img-fluid" alt="Your career in technology">
                             </div>
                             <div class="card-body">
                                 <h3 class="card-title">Guest <br /> Infotainment Box</h3>
@@ -202,8 +190,8 @@
 
                     <div class="card " id="card-homepage-6cards0">
                             <div class="img-container img-fluid">
-                                <img data-src="~/images/upload/thbsoftwaresolution/Career/nw_pd (4).jpg?ver=4&amp;la=en&amp;w=320&amp;hash=3eb95bd700c46923836a7c13d95be89a"
-                                     src="~/images/upload/thbsoftwaresolution/Career/nw_pd (4).jpg?ver=4&amp;la=en&amp;w=320&amp;hash=3eb95bd700c46923836a7c13d95be89a" class="img-fluid" alt="careers-roles-and-locations">
+                                <img data-src="~/images/upload/thbsoftwaresolution/Career/nw_pd (4).jpg"
+                                     src="~/images/upload/thbsoftwaresolution/Career/nw_pd (4).jpg" class="img-fluid" alt="careers-roles-and-locations">
                             </div>
                             <div class="card-body">
                                 <h3 class="card-title">THB Inventory <br /> Management System (TIMS)</h3>
@@ -212,8 +200,8 @@
 
                     <div class="card " id="card-homepage-6cards1">
                             <div class="img-container img-fluid">
-                                <img data-src="~/images/upload/thbsoftwaresolution/Career/nw_pd (6).jpg?ver=1&amp;la=en&amp;w=320&amp;hash=76f727b1ab44a107eac774f9644e94dc"
-                                     src="~/images/upload/thbsoftwaresolution/Career/nw_pd (6).jpg?ver=1&amp;la=en&amp;w=320&amp;hash=76f727b1ab44a107eac774f9644e94dc" class="img-fluid" alt="life-at-avanade">
+                                <img data-src="~/images/upload/thbsoftwaresolution/Career/nw_pd (6).jpg"
+                                     src="~/images/upload/thbsoftwaresolution/Career/nw_pd (6).jpg" class="img-fluid" alt="life-at-avanade">
                             </div>
                             <div class="card-body">
                                 <h3 class="card-title">Embedded <br /> System Products</h3>
@@ -222,8 +210,8 @@
 
                     <div class="card " id="card-homepage-6cards2">
                             <div class="img-container img-fluid">
-                                <img data-src="~/images/upload/thbsoftwaresolution/Career/nw_pd (7).jpg?ver=1&amp;la=en&amp;w=320&amp;hash=94715d359af7a790dc6f7fd1b9a1e358"
-                                     src="~/images/upload/thbsoftwaresolution/Career/nw_pd (7).jpg?ver=1&amp;la=en&amp;w=320&amp;hash=94715d359af7a790dc6f7fd1b9a1e358" class="img-fluid" alt="avanade-careers-benefits">
+                                <img data-src="~/images/upload/thbsoftwaresolution/Career/nw_pd (7).jpg"
+                                     src="~/images/upload/thbsoftwaresolution/Career/nw_pd (7).jpg" class="img-fluid" alt="avanade-careers-benefits">
                             </div>
                             <div class="card-body">
                                 <h3 class="card-title">Office  <br /> Automation </h3>
@@ -232,8 +220,8 @@
 
                     <div class="card  external-link no-share" id="card-homepage-6cards3">
                             <div class="img-container img-fluid">
-                                <img data-src="~/images/upload/thbsoftwaresolution/Career/nw_pd (8).jpg?ver=1&amp;la=en&amp;w=320&amp;hash=c5ad7320269fbf2a61c93258f0681483"
-                                     src="~/images/upload/thbsoftwaresolution/Career/nw_pd (8).jpg?ver=1&amp;la=en&amp;w=320&amp;hash=c5ad7320269fbf2a61c93258f0681483" class="img-fluid" alt="careers-change-room">
+                                <img data-src="~/images/upload/thbsoftwaresolution/Career/nw_pd (8).jpg"
+                                     src="~/images/upload/thbsoftwaresolution/Career/nw_pd (8).jpg" class="img-fluid" alt="careers-change-room">
                             </div>
                             <div class="card-body">
                                 <h3 class="card-title">ERP <br /> solutions</h3>
@@ -242,7 +230,7 @@
 
                     <div class="card  external-link no-share" id="card-homepage-6cards3">
                             <div class="img-container img-fluid">
-                                <img data-src="~/images/upload/thbsoftwaresolution/Career/nw_pd (5).jpg?ver=1&amp;la=en&amp;w=320&amp;hash=c5ad7320269fbf2a61c93258f0681483"
+                                <img data-src="~/images/upload/thbsoftwaresolution/Career/nw_pd (5).jpg"
                                      src="~/images/upload/thbsoftwaresolution/Career/nw_pd (5).jpg" class="img-fluid" alt="careers-change-room">
                             </div>
                             <div class="card-body">
@@ -252,8 +240,8 @@
 
                     <div class="card  external-link no-share" id="card-homepage-6cards3">
                             <div class="img-container img-fluid">
-                                <img data-src="~/images/upload/thbsoftwaresolution/Career/nw_pd (2).jpg?ver=1&amp;la=en&amp;w=320&amp;hash=c5ad7320269fbf2a61c93258f0681483"
-                                     src="~/images/upload/thbsoftwaresolution/Career/nw_pd (2).jpg?ver=1&amp;la=en&amp;w=320&amp;hash=c5ad7320269fbf2a61c93258f0681483" class="img-fluid" alt="careers-change-room">
+                                <img data-src="~/images/upload/thbsoftwaresolution/Career/nw_pd (2).jpg"
+                                     src="~/images/upload/thbsoftwaresolution/Career/nw_pd (2).jpg" class="img-fluid" alt="careers-change-room">
                             </div>
                             <div class="card-body">
                                 <h3 class="card-title">Finance  <br /> Management</h3>
@@ -262,8 +250,8 @@
 
                     <div class="card  external-link no-share" id="card-homepage-6cards3">
                             <div class="img-container img-fluid">
-                                <img data-src="~/images/upload/thbsoftwaresolution/Career/nw_pd (3).jpg?ver=1&amp;la=en&amp;w=320&amp;hash=c5ad7320269fbf2a61c93258f0681483"
-                                     src="~/images/upload/thbsoftwaresolution/Career/nw_pd (3).jpg?ver=1&amp;la=en&amp;w=320&amp;hash=c5ad7320269fbf2a61c93258f0681483" class="img-fluid" alt="careers-change-room">
+                                <img data-src="~/images/upload/thbsoftwaresolution/Career/nw_pd (3).jpg"
+                                     src="~/images/upload/thbsoftwaresolution/Career/nw_pd (3).jpg" class="img-fluid" alt="careers-change-room">
                             </div>
                             <div class="card-body">
                                 <h3 class="card-title">Fleet  <br /> Management</h3>
