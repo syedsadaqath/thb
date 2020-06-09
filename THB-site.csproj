@@ -19,10 +19,11 @@
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort />
-    <IISExpressAnonymousAuthentication />
-    <IISExpressWindowsAuthentication />
-    <IISExpressUseClassicPipelineMode />
+    <IISExpressSSLPort>
+    </IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication>enabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>disabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
@@ -441,6 +442,22 @@
     <Content Include="images\sharing-tooltip\Instagram.png" />
     <Content Include="images\svg\mobile\Expand.svg" />
     <Content Include="images\svg\OutsideLink.svg" />
+    <Content Include="images\upload\thbsoftwaresolution\ites_bpo.jpg" />
+    <Content Include="images\upload\thbsoftwaresolution\Our-Clients\data-semantics-squarelogo.png" />
+    <Content Include="images\upload\thbsoftwaresolution\Our-Clients\DataSemantics_logo.png" />
+    <Content Include="images\upload\thbsoftwaresolution\Our-Clients\Envisyslogo.png" />
+    <Content Include="images\upload\thbsoftwaresolution\Our-Clients\envisys_logo.png" />
+    <Content Include="images\upload\thbsoftwaresolution\Our-Clients\extrieve-technologies-squarelogo.png" />
+    <Content Include="images\upload\thbsoftwaresolution\Our-Clients\ind global_logo.jpg" />
+    <Content Include="images\upload\thbsoftwaresolution\Our-Clients\ingGlobal_logo %281%29.jpg" />
+    <Content Include="images\upload\thbsoftwaresolution\Our-Clients\ingGlobal_logo.jpg" />
+    <Content Include="images\upload\thbsoftwaresolution\Our-Clients\logo_saggezza.png" />
+    <Content Include="images\upload\thbsoftwaresolution\Our-Clients\plintron_logo.png" />
+    <Content Include="images\upload\thbsoftwaresolution\Our-Clients\processware.jpg" />
+    <Content Include="images\upload\thbsoftwaresolution\Our-Clients\rebaca-technologies-squarelogo.png" />
+    <Content Include="images\upload\thbsoftwaresolution\Our-Clients\RebacaSiteLogo.png" />
+    <Content Include="images\upload\thbsoftwaresolution\Our-Clients\rebaca_logo.png" />
+    <Content Include="images\upload\thbsoftwaresolution\prddevop.png" />
     <Content Include="images\upload\thbsoftwaresolution\iips.jpg" />
     <Content Include="images\upload\thbsoftwaresolution\new images\Collaboration 1.jpg" />
     <Content Include="images\upload\thbsoftwaresolution\new images\Collaboration 2.jpg" />
@@ -653,11 +670,6 @@
     <Content Include="media\images\icons\socialmedia\linkedin-lightgrey.svg" />
     <Content Include="media\images\icons\socialmedia\pinterest-lightgrey.svg" />
     <Content Include="media\images\icons\socialmedia\twitter-lightgrey.svg" />
-    <Content Include="media\logo\avanade-logo.svg" />
-    <Content Include="media\logo\Company Logo with R Mark.svg" />
-    <Content Include="media\logo\Cropped Company Logo with  Transparent Background.svg" />
-    <Content Include="media\logo\Cropped Transparent Background.svg" />
-    <Content Include="media\logo\home.svg" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -686,12 +698,9 @@
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Properties\PublishProfiles\CustomProfile1.pubxml" />
     <None Include="Properties\PublishProfiles\THB-site20200516041410 - Web Deploy.pubxml" />
-    <Content Include="media\logo\input.png" />
-    <Content Include="media\logo\output-onlinepngtools %281%29.png" />
-    <Content Include="media\logo\output-onlinepngtools.png" />
-    <Content Include="media\logo\THBLogo_V1.0_344x223 %281%29 %281%29.png" />
-    <Content Include="media\logo\THBLogo_V1.0_344x223 %281%29.png" />
     <None Include="Scripts\jquery-3.5.1-vsdoc.js" />
+    <Content Include="media\logo\Cropped Company Logo with  Transparent Background.png" />
+    <Content Include="media\logo\THBLogo_V1.0_344x223 %281%29.png" />
     <Content Include="Scripts\jquery-3.5.1.js" />
     <Content Include="Scripts\jquery-3.5.1.min.js" />
     <Content Include="Scripts\jquery-3.5.1.slim.js" />
@@ -756,6 +765,8 @@
     <Content Include="Views\Start\_ItemDetails.cshtml" />
     <Content Include="Views\Start\index.cshtml" />
     <Content Include="Views\Start\_PaymentItemDetails.cshtml" />
+    <Content Include="Views\Shared\_FooterBox.cshtml" />
+    <Content Include="Views\Shared\_waves.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -790,7 +801,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>61908</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:61908/</IISUrl>
+          <IISUrl>http://localhost:61910/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

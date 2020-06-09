@@ -11,7 +11,7 @@
         <div class="row">
             <ol class="breadcrumb" vocab="http://schema.org/" typeof="BreadcrumbList">
                 <li property="itemListElement" typeof="ListItem">
-                    <a property="item" typeof="WebPage" href="/en">
+                    <a property="item" typeof="WebPage" href="@Url.Action("Index", "Home")">
                         <span property="name">Home</span>
                     </a>
                     <meta property="position" content="1">
@@ -25,8 +25,8 @@
     </div>
 </nav>
 
-<link href="/css/marketo-min.css?v=jLvbdfn6Pr5QOoHvRYJ4WHECkqsbz-qr6ssaHTXI0TE1" rel="preload" as="style">
-<link rel="stylesheet" href="/css/marketo-min.css?v=jLvbdfn6Pr5QOoHvRYJ4WHECkqsbz-qr6ssaHTXI0TE1">
+<link href="/css/marketo-min.css" rel="preload" as="style">
+<link rel="stylesheet" href="/css/marketo-min.css">
 <div class="lazy-load-marketo"></div>
 <form __bizdiag="-1158296584" __biza="WJ__"></form>
 
@@ -70,7 +70,7 @@
                 font-weight: bold;
                 line-height: 1;
                 text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
-                background-color: #ff5c00;
+                background-color: #000066;
             }
 
                 .mktoForm .mktoButtonWrap.mktoPaperMashup .mktoButton:hover {
@@ -88,7 +88,7 @@
                 <div class="mktoOffset" style="width: 10px;"></div>
                 <div class="mktoFieldWrap mktoRequiredField">
                     <label for="FirstName" class="mktoLabel mktoHasWidth" style="width: 225px;">
-                        <div class="mktoAsterix">*</div>
+                        @*<div class="mktoAsterix">*</div>*@
                         First Name:
                     </label>
                     <div class="mktoGutter mktoHasWidth" style="width: 10px;"></div>
@@ -103,7 +103,8 @@
                 <div class="mktoFieldWrap mktoRequiredField">
                     <label for="LastName" class="mktoLabel mktoHasWidth"
                            style="width: 225px;">
-                        <div class="mktoAsterix">*</div>Last Name:
+                        @*<div class="mktoAsterix">*</div>*@
+                        Last Name:
                     </label>
                     <div class="mktoGutter mktoHasWidth" style="width: 10px;"></div>
                     <input id="LastName" name="LastName" maxlength="255" type="text"
@@ -117,7 +118,8 @@
                 <div class="mktoFieldWrap mktoRequiredField">
                     <label for="Email" class="mktoLabel mktoHasWidth"
                            style="width: 225px;">
-                        <div class="mktoAsterix">*</div>Email Address:
+                        @*<div class="mktoAsterix">*</div>*@
+                        Email Address:
                     </label>
                     <div class="mktoGutter mktoHasWidth" style="width: 10px;"></div>
                     <input id="Email" name="Email" maxlength="255" type="email"
@@ -133,7 +135,8 @@
                 <div class="mktoOffset" style="width: 10px;"></div>
                 <div class="mktoFieldWrap">
                     <label for="Phone" class="mktoLabel mktoHasWidth" style="width: 225px;">
-                        <div class="mktoAsterix">*</div>Phone Number:
+                        @*<div class="mktoAsterix">*</div>*@
+                        Phone Number:
                     </label>
                     <div class="mktoGutter mktoHasWidth" style="width: 10px;"></div>
                     <input id="Phone" name="Phone" maxlength="255" type="tel" class="mktoField mktoTelField mktoHasWidth" style="width: 225px;">
@@ -146,7 +149,8 @@
                 <div class="mktoFieldWrap mktoRequiredField">
                     <label for="Company" class="mktoLabel mktoHasWidth"
                            style="width: 225px;">
-                        <div class="mktoAsterix">*</div>Company Name:
+                        @*<div class="mktoAsterix">*</div>*@
+                        Company Name:
                     </label>
                     <div class="mktoGutter mktoHasWidth" style="width: 10px;"></div>
                     <input id="Company" name="Company" maxlength="255" type="text" class="mktoField mktoTextField mktoHasWidth mktoRequired mktoInvalid" style="width: 225px;">
@@ -164,7 +168,8 @@
                 <div class="mktoFieldWrap mktoRequiredField">
                     <label id="Info_requested" for="ContactUs_Request"
                            class="mktoLabel mktoHasWidth" style="width: 225px;">
-                        <div class="mktoAsterix">*</div>Information Requested:
+                        @*<div class="mktoAsterix">*</div>*@
+                        Information Requested:
                     </label>
                     <div class="mktoGutter mktoHasWidth" style="width: 10px;"></div>
                     <textarea id="ContactUs_Request" name="ContactUs_Request" rows="4"
@@ -199,27 +204,20 @@
         <div class="mktoButtonRow one">
             <span class="mktoFieldDescriptor mktoFormCol mktoButtonWrap mktoPaperMashup" style="margin-left: 20px;">
                 <button type="submit" class="mktoButton">SUBMIT</button>
+                <br />
+                <br />
+                <br />
             </span>
         </div>
-
+        
+        <div class="mktoButtonRow one">
+            <span class="mktoFieldDescriptor mktoFormCol mktoButtonWrap mktoPaperMashup" style="margin-left: 20px;">
+            </span>
+        </div>
         <input type="hidden" name="formid" class="mktoField mktoFieldDescriptor" value="4874">
         <input type="hidden" name="munchkinId" class="mktoField mktoFieldDescriptor" value="857-NHG-455">
         @*</form>*@
     }
-</div>
-
-
-
-
-<div id="post_form_content">
-    <div></div>
-</div>
-
-
-<div>
-    &nbsp;
-    &nbsp;
-    &nbsp;
 </div>
 
 <div id="componentlayout440819" class="pagecontainer flt ">

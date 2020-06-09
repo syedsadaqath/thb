@@ -4,6 +4,28 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+
+
+<nav class="navbar rebrand-breadcrumb-module hidden-xs hero-breadcrumb">
+    <div class="container">
+        <div class="row">
+            <ol class="breadcrumb" vocab="http://schema.org/" typeof="BreadcrumbList">
+                <li property="itemListElement" typeof="ListItem">
+                    <a property="item" typeof="WebPage" href="@Url.Action("Index", "Home")">
+                        <span property="name">Home</span>
+                    </a>
+                    <meta property="position" content="1">
+                </li>
+                <li property="itemListElement" typeof="ListItem">
+                    Industries
+                    <meta property="position" content="3">
+                </li>
+            </ol>
+        </div>
+    </div>
+</nav>
+
+
 <section class="container-fluid" id="agile-hero">
     <section id="banner-section" class="hero-module hero-module-G-slider hero-rebrand-G">
         <div class="banner">
@@ -12,25 +34,12 @@
             <div id="ModuleGCarousel" data-ride="carousel">
                 <!-- Indicators -->
                 <div class="carousel-inner" role="listbox">
-
                     <div class="item fit-to-width active" data-position="1" style="background-image: url(&quot;/images-used/upload/thbsoftwaresolution/serv_bann2.jpg&quot;);">
-
-
-                        <img data-src="~/images/upload/thbsoftwaresolution/serv_bann2.jpg" src="~/images/upload/thbsoftwaresolution/serv_bann2.jpg" class="slides" alt="agile delivery">                <div class="container">
-                            <div class="carousel-caption">
-                                <a href="" class="rebrandAccessBuilt " target="_blank">
-                                    <div class="hero-feature-title " target="_blank">
-                                        <h1 class="feature-title fadeInUp animated">
-                                            Industries
-                                        </h1>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
+                        <img data-src="~/images/upload/thbsoftwaresolution/serv_bann2.jpg" src="~/images/upload/thbsoftwaresolution/serv_bann2.jpg" class="slides" alt="agile delivery">
                     </div>
                 </div>
             </div>
-            </div>
+        </div>
     </section>
 </section>
 
@@ -39,32 +48,32 @@
     <div class="container">
 
         <div class="module-title bg-header-title" style="opacity: 1;">
-            <h2>
+            <h3>
                 Industries Focused
-            </h2>            
+            </h3>
         </div>
 
         <div class="card-listing">
             <div id="webinarscardfeaturedfour" class="row row-eq-height webinarscardfeatured">
                 <div>
                     <div class="card " id="card-webinars-card-featured">
-                            <div class="img-container img-fluid">
-                                <img data-src="~/images/upload/thbsoftwaresolution/Industries/reimagining-retail-with-ai-webinar.jpg" src="~/images/upload/thbsoftwaresolution/Industries/reimagining-retail-with-ai-webinar.jpg" class="img-fluid" alt="AI for retail ">
-                            </div>
-                            <div class="card-body">
-                                <h3 class="card-title">
-                                    WHOLESALE & RETAIL
-                                </h3>                               
-                            </div>
+                        <div class="img-container img-fluid">
+                            <img data-src="~/images/upload/thbsoftwaresolution/Industries/reimagining-retail-with-ai-webinar.jpg" src="~/images/upload/thbsoftwaresolution/Industries/reimagining-retail-with-ai-webinar.jpg" class="img-fluid" alt="AI for retail ">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                WHOLESALE & RETAIL
+                            </h4>
+                        </div>
                     </div>
                     <div class="card " id="card-webinars-card-featured0">
                         <div class="img-container img-fluid">
                             <img data-src="~/images/upload/thbsoftwaresolution/Industries/intelligence-for-the-speed-of-business.jpg" src="~/images/upload/thbsoftwaresolution/Industries/intelligence-for-the-speed-of-business.jpg" class="img-fluid" alt="AI for retail ">
                         </div>
                         <div class="card-body">
-                            <h3 class="card-title">
+                            <h4 class="card-title">
                                 HI-TECH
-                            </h3>
+                            </h4>
                         </div>
                     </div>
                     <div class="card " id="card-webinars-card-featured1">
@@ -72,9 +81,9 @@
                             <img data-src="~/images/upload/thbsoftwaresolution/Industries/best-practices-for-virtual-workshops.jpg" src="~/images/upload/thbsoftwaresolution/Industries/best-practices-for-virtual-workshops.jpg" class="img-fluid" alt="AI for retail ">
                         </div>
                         <div class="card-body">
-                            <h3 class="card-title">
+                            <h4 class="card-title">
                                 LOGISTIC & TRAVEL
-                            </h3>
+                            </h4>
                         </div>
                     </div>
                     <div class="card " id="card-webinars-card-featured2">
@@ -82,9 +91,9 @@
                             <img data-src="~/images/upload/thbsoftwaresolution/Industries/skype-hero.jpg" src="~/images/upload/thbsoftwaresolution/Industries/skype-hero.jpg" class="img-fluid" alt="AI for retail ">
                         </div>
                         <div class="card-body">
-                            <h3 class="card-title">
+                            <h4 class="card-title">
                                 TELECOM
-                            </h3>
+                            </h4>
                         </div>
                     </div>
                     <div class="card " id="card-webinars-card-featured3">
@@ -92,9 +101,9 @@
                             <img data-src="~/images/upload/thbsoftwaresolution/Industries/security-strategy-webinar.jpg" src="~/images/upload/thbsoftwaresolution/Industries/security-strategy-webinar.jpg" class="img-fluid" alt="AI for retail ">
                         </div>
                         <div class="card-body">
-                            <h3 class="card-title">
+                            <h4 class="card-title">
                                 UTILITY
-                            </h3>
+                            </h4>
                         </div>
                     </div>
                     <div class="card " id="card-webinars-card-featured4">
@@ -102,19 +111,19 @@
                             <img data-src="~/images/upload/thbsoftwaresolution/Industries/best-practices-for-virtual-workshops.jpg" src="~/images/upload/thbsoftwaresolution/Industries/digital-marketing-webinar.jpg" class="img-fluid" alt="AI for retail ">
                         </div>
                         <div class="card-body">
-                            <h3 class="card-title">
+                            <h4 class="card-title">
                                 MOBILE APPS
-                            </h3>
+                            </h4>
                         </div>
                     </div>
-                   
+
                     <section class="block-module webinars-text" id="webinars-text">
-                        <div class="container">                            
+                        <div class="container">
                             <div class="col-md-10 col-md-offset-1 col-sm-12 full-width">
                                 <div class="row">
                                     <div class="col-md-12 col-sm-12">
                                         <div class="left-side">
-                                            <h4>THB provides end-to-end, innovative and comprehensive services that help customers leverage high quality, flexible delivery models for cost efficiency, enhanced skill set, and deep domain expertise</h4>
+                                            <h5 style="font-size:25px">THB provides end-to-end, innovative and comprehensive services that help customers leverage high quality, flexible delivery models for cost efficiency, enhanced skill set, and deep domain expertise</h5>
                                         </div>
                                         <div class="right-side">
 
@@ -131,9 +140,9 @@
                             <img data-src="~/images/upload/thbsoftwaresolution/Industries/virtual-fundraiser-webinar-hero.jpg" src="~/images/upload/thbsoftwaresolution/Industries/virtual-fundraiser-webinar-hero.jpg" class="img-fluid" alt="AI for retail ">
                         </div>
                         <div class="card-body">
-                            <h3 class="card-title">
+                            <h4 class="card-title">
                                 Embedded System
-                            </h3>
+                            </h4>
                         </div>
                     </div>
                     <div class="card " id="card-webinars-card-featured8">
@@ -141,9 +150,9 @@
                             <img data-src="~/images/upload/thbsoftwaresolution/Industries/security-webinar-hero.jpg" src="~/images/upload/thbsoftwaresolution/Industries/security-webinar-hero.jpg" class="img-fluid" alt="AI for retail ">
                         </div>
                         <div class="card-body">
-                            <h3 class="card-title">
+                            <h4 class="card-title">
                                 Cloud Computing
-                            </h3>
+                            </h4>
                         </div>
                     </div>
                     <div class="card " id="card-webinars-card-featured9">
@@ -151,9 +160,9 @@
                             <img data-src="~/images/upload/thbsoftwaresolution/Industries/dwg-remote-working-webinar.jpg" src="~/images/upload/thbsoftwaresolution/Industries/dwg-remote-working-webinar.jpg" class="img-fluid" alt="AI for retail ">
                         </div>
                         <div class="card-body">
-                            <h3 class="card-title">
+                            <h4 class="card-title">
                                 Telecom
-                            </h3>
+                            </h4>
                         </div>
                     </div>
                     <div class="card " id="card-webinars-card-featured10">
@@ -161,9 +170,9 @@
                             <img data-src="~/images/upload/thbsoftwaresolution/Industries/field-service-usa-hero.jpg" src="~/images/upload/thbsoftwaresolution/Industries/field-service-usa-hero.jpg" class="img-fluid" alt="AI for retail ">
                         </div>
                         <div class="card-body">
-                            <h3 class="card-title">
+                            <h4 class="card-title">
                                 Custom SW Development
-                            </h3>
+                            </h4>
                         </div>
                     </div>
 
@@ -174,9 +183,9 @@
                             <img data-src="~/images/upload/thbsoftwaresolution/Industries/open-banking-webinar.jpg" src="~/images/upload/thbsoftwaresolution/Industries/open-banking-webinar.jpg" class="img-fluid" alt="AI for retail ">
                         </div>
                         <div class="card-body">
-                            <h3 class="card-title">
+                            <h4 class="card-title">
                                 ERP
-                            </h3>
+                            </h4>
                         </div>
                     </div>
 
@@ -185,25 +194,25 @@
                             <img data-src="~/images/upload/thbsoftwaresolution/Industries/maximize-microsoft-dynamics-ax-365-hero.jpg" src="~/images/upload/thbsoftwaresolution/Industries/maximize-microsoft-dynamics-ax-365-hero.jpg" class="img-fluid" alt="AI for retail ">
                         </div>
                         <div class="card-body">
-                            <h3 class="card-title">
+                            <h4 class="card-title">
                                 Automation
-                            </h3>
+                            </h4>
                         </div>
                     </div>
 
                 </div>
 
-                </div>
             </div>
-
-            <div class="more-results more-results-d text-center loadSpace" id="loadclasswebinarscardfeatured" style="display: none;">
-                <a id="loadbuttonwebinarscardfeatured" class="more-link-up1 loadmore-webinarscardfeatured-cardmodulee ga-lazyloading-webinarscardfeatured-cardmodulee" data-lazyload-level="2" data-lazyload="lazy-load-cardmodulee" href=" #">
-                    <span class="more-link-up loadmore-webinarscardfeatured-cardmodulee ga-lazyloading-icon-webinarscardfeatured-cardmodulee" data-lazyload="lazy-load-cardmodulee"></span>
-                    <span class="loadmore-webinarscardfeatured-cardmodulee ga-lazyloading-icon-webinarscardfeatured-cardmodulee" data-lazyload="lazy-load-cardmodulee">Load More Stories</span>
-                </a>
-            </div>
-
         </div>
+
+        <div class="more-results more-results-d text-center loadSpace" id="loadclasswebinarscardfeatured" style="display: none;">
+            <a id="loadbuttonwebinarscardfeatured" class="more-link-up1 loadmore-webinarscardfeatured-cardmodulee ga-lazyloading-webinarscardfeatured-cardmodulee" data-lazyload-level="2" data-lazyload="lazy-load-cardmodulee" href=" #">
+                <span class="more-link-up loadmore-webinarscardfeatured-cardmodulee ga-lazyloading-icon-webinarscardfeatured-cardmodulee" data-lazyload="lazy-load-cardmodulee"></span>
+                <span class="loadmore-webinarscardfeatured-cardmodulee ga-lazyloading-icon-webinarscardfeatured-cardmodulee" data-lazyload="lazy-load-cardmodulee">Load More Stories</span>
+            </a>
+        </div>
+
+    </div>
     <div class="waveContainer"><div class="wave61" style="opacity: 0; transform: matrix(1, 0, 0, 1, 17, 70);"></div><div class="wave62" style="opacity: 0; transform: matrix(1, 0, 0, 1, 34, 50);"></div></div>
 </section>
 
@@ -358,7 +367,7 @@
                                         border: none;
                                         font-size: 16px;
                                         font-weight: 600;}*/
-                                    
+
                                 </style>
                                 <div id="messagediv5759" style="padding-top:5px;"></div>
                                 <form method="post" class="form-inline" name="chkform" value="" enctype="multipart/form-data" action="/page/contact.html">

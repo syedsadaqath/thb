@@ -40,7 +40,7 @@ button:disabled {
 }
 
 .mktoFieldWrap .mktoAsterix {
-    color: #ff5800 !important;
+    color:  #000066 !important;
     width: 10px !important;
     text-align: left
 }
@@ -60,7 +60,7 @@ button:disabled {
     width: 190px !important;
     height: 60px !important;
     line-height: 60px !important;
-    background: #fe5800 !important;
+    background: #000066 !important;
     color: #fff !important;
     text-transform: uppercase !important;
     text-align: center !important;
@@ -302,7 +302,7 @@ span.mktoButtonWrap {
     }
 
     .mktoFieldWrap .mktoAsterix {
-        color: #ff5800 !important;
+        color:  #000066 !important;
         width: 10px !important;
         text-align: left
     }
@@ -317,7 +317,7 @@ span.mktoButtonWrap {
         width: 190px !important;
         height: 60px !important;
         line-height: 60px !important;
-        background: #fe5800 !important;
+        background: #000066 !important;
         color: #fff !important;
         text-transform: uppercase !important;
         text-align: center !important;

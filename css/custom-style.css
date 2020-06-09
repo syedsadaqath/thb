@@ -1186,7 +1186,7 @@ section p a:hover, section.block-module .left-side a:hover, .article-list .media
 }
 
 .navbar.main-navigation {
-    background-color: #fff;
+    background-color: #f2f2f2;
     border: none;
     border-radius: 0;
     z-index: 999;

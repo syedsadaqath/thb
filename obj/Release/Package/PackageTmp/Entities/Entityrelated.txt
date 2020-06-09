@@ -1,0 +1,11 @@
+﻿Any Changes
+Refresh
+1. Add this=>public <#=code.Escape(container)#>(string connectionString) : base(connectionString){    }
+above
+    protected override void OnModelCreating(DbModelBuilder modelBuilder)
+    {
+        throw new UnintentionalCodeFirstException();
+    }
+
+2. rename classname in Context.cs the class name to replace entities by givemyappsloginEntities
+3. To update a table, remove the table and update model from database, in that selecte the deleted tabless

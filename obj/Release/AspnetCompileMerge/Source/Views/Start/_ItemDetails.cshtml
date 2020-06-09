@@ -1,0 +1,85 @@
+﻿@model ThbPayments.Areas.CCAvenue.StartModel
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="outercoverfrontend" style="font-size: 12px;">
+        <div class="allfieldsoutercover">
+            <div class="form-row">
+                <div class="form-group fg wd_50 ">
+                    <div class="col-md-3  col wd_50">
+                        @Html.Editor("Name", new { htmlAttributes = new { @class = "form-control", @title = "Name", @placeholder = "Name" } })
+                        @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group fg wd_50 ">
+                    <div class="col-md-3">
+                        @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", @title = "Email", @placeholder = "Email" } })
+                        @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group fg wd_50 ">
+                    <div class="col-md-3">
+                        @Html.Editor("Phone", new { htmlAttributes = new { @class = "form-control", @title = "Phone", @placeholder = "Phone" } })
+                        @Html.ValidationMessageFor(model => model.Phone, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group fg wd_50 ">
+                    <div class="col-md-3">
+                        <input name="DisplayInvoiceNumber" title="Invoice Number" class="form-control text-box single-line" id="DisplayInvoiceNumber" type="text" readonly="readonly" placeholder="Invoice Number" value="Invoice #@Model.InvoiceNumber">
+                        @Html.Hidden("InvoiceNumber")
+                        @Html.ValidationMessageFor(model => model.InvoiceNumber, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <div class="col-md-3">
+                        @Html.Editor("ProductInfo", new { htmlAttributes = new { @class = "form-control", @title = "Product Info", @placeholder = "Product Info" } })
+                        @Html.ValidationMessageFor(model => model.ProductInfo, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group fg wd_50 ">
+                    <div class="col-md-3">
+                        @Html.EditorFor(model => model.Amount, new { htmlAttributes = new { @class = "form-control", @title = "Amount", @placeholder = "Amount" } })
+                        @Html.ValidationMessageFor(model => model.Amount, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group fg wd_50 ">
+                    <div class="col-md-3">
+                        @Html.Hidden("Currency", "INR")
+                        <select name="Currency" disabled="disabled" class="form-control" id="Currency" readonly="readonly">
+                            <option selected="selected" value="INR">INR</option>
+                        </select>
+                        @*@Html.DropDownListFor(model => model.Currency,
+                            ThbPayments.Areas.CCAvenue.StartModel.CurrencyTypes(),
+                            "Select Currency",
+                            new { @class = "form-control", @readonly = "readonly", @disabled = "disabled" })*@
+                        @Html.ValidationMessageFor(model => model.Currency, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <div class="submitbutton">
+                    @if (Model.SubmitButtonVisible)
+                    {
+                        <input type="submit" ID="submit" Value="Submit" />
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+}
+@if (Model.Html != null)
+{
+    @Html.Raw(Model.Html)
+}
+
+@System.Web.Optimization.Scripts.Render("~/Scripts/jquery.validate.min.js")
+@System.Web.Optimization.Scripts.Render("~/Scripts/jquery.validate.unobtrusive.min.js")

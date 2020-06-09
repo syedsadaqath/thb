@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="amrullah_thbdbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Invoice">
+    <Key>
+      <PropertyRef Name="InvoiceNumber" />
+    </Key>
+    <Property Name="InvoiceNumber" Type="decimal" Precision="18" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SessionId" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Info" Type="nvarchar" MaxLength="50" />
+    <Property Name="TimeStamp" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PaymentInfo">
+    <Key>
+      <PropertyRef Name="TxnId" />
+    </Key>
+    <Property Name="TxnId" Type="nvarchar" MaxLength="25" Nullable="false" />
+    <Property Name="Amount" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="ProductInfo" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="ModifiedOn" Type="datetime" Nullable="false" />
+    <Property Name="CreatedOn" Type="datetime" Nullable="false" />
+    <Property Name="Response" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Status" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="ResponseTime" Type="datetime" />
+    <Property Name="Request" Type="nvarchar(max)" />
+    <Property Name="InvoiceNumber" Type="nvarchar" MaxLength="25" />
+    <Property Name="Browser" Type="nvarchar" MaxLength="25" />
+    <Property Name="MachineIp" Type="nvarchar" MaxLength="25" />
+    <Property Name="Currency" Type="nvarchar" MaxLength="25" />
+  </EntityType>
+  <EntityContainer Name="amrullah_thbdbModelStoreContainer">
+    <EntitySet Name="Invoice" EntityType="Self.Invoice" Schema="amrullah_thb" store:Type="Tables" />
+    <EntitySet Name="PaymentInfo" EntityType="Self.PaymentInfo" Schema="amrullah_thb" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
