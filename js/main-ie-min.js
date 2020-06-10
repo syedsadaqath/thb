@@ -6247,6 +6247,9 @@ jQuery(document).ready(function (n) {
     win_width < 751 && (o = n("#HeroReBrand"), n(o).css("background-image", ""), n(o).css("background-image", 'url("/images/re-brand/glow-640.png")'), n(".rebrand.hero-module-I").removeClass("thermal-1920").addClass("thermal-mobile"))
 });
 jQuery(document).ready(function () {
+    document.getElementById('headerImages').removeAttribute("style");
+});
+jQuery(document).ready(function () {
     var t = jQuery("#myCarousel .item").length,
         n, i = 11;
     jQuery("#myCarousel .carousel-control").on("click", function () {
