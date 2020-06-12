@@ -5349,11 +5349,11 @@ if (windowLength = screen.width, jQuery(document).ready(function () {
     i = jQuery(".main-navigation");
     u = 0;
     i.length != 0 && (u = i.offset().top);
-    jQuery(window).scroll(function () {
-        var n = jQuery(this).scrollTop();
-        n >= u ? i.addClass("shrink") : i.removeClass("shrink");
-        jQuery(document).scrollTop() > 95 ? (jQuery("header-top").addClass("shrink"), jQuery("nav.main-navigation").addClass("shrink"), jQuery("nav:not(.intrapage-nav)").addClass("shrink"), jQuery(".intrapage-nav").addClass("shrink"), jQuery(".mainHeader").addClass("shrink")) : (jQuery(".header-top").removeClass("shrink"), jQuery("nav.main-navigation").removeClass("shrink"), jQuery(".intrapage-nav").removeClass("shrink"), jQuery("nav").removeClass("shrink"), jQuery(".mainHeader").removeClass("shrink"))
-    });
+    //jQuery(window).scroll(function () {
+    //    var n = jQuery(this).scrollTop();
+    //    n >= u ? i.addClass("shrink") : i.removeClass("shrink");
+    //    jQuery(document).scrollTop() > 95 ? (jQuery("header-top").addClass("shrink"), jQuery("nav.main-navigation").addClass("shrink"), jQuery("nav:not(.intrapage-nav)").addClass("shrink"), jQuery(".intrapage-nav").addClass("shrink"), jQuery(".mainHeader").addClass("shrink")) : (jQuery(".header-top").removeClass("shrink"), jQuery("nav.main-navigation").removeClass("shrink"), jQuery(".intrapage-nav").removeClass("shrink"), jQuery("nav").removeClass("shrink"), jQuery(".mainHeader").removeClass("shrink"))
+    //});
     jQuery(".rebrand .top-menu ul.nav > li").append('<i class="divider"><\/i>');
     jQuery.fn.outerHTML = function (n) {
         return n ? this.before(n).remove() : jQuery(".NavigationModal").append(this.eq(0).clone()).html()

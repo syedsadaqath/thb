@@ -142,15 +142,11 @@
             <nav class="navbar navbar-default main-navigation">
                 <div class="container">
                     <div class="row">
-                        <div class="pull-left col-xs-6 col-sm-2 logo" style="padding-left:10px">
-                            <!--site logo-->
-                            <a href='@Url.Action("Index", "Home")' class="navbar-brand1">
-                                <img loading="lazy" id="headerImages" style="display: none;" class="" src="~/media/logo/Cropped Company Logo with  Transparent Background.png" data-src="~/media/logo/Company Logo with R Mark.svg" alt="TechHighBrowss logo">
-                            </a>
-                            <!--site logo-->
+                        <div class="pull-left col-xs-2 col-sm-2 logo" style="padding-left:10px">
+                            <img loading="lazy" id="headerImages" onclick="location.href='@Url.Action("Index", "Home")'" style="" class="" src="~/media/logo/Company Logo 72  50.svg" data-src="~/media/logo/Company Logo 72  50.svg" alt="TechHighBrowss logo">
                         </div>
 
-                        <div class="col-xs-6 hidden-lg navbar-header mobile-view">                          
+                        <div class="col-xs-6 hidden-lg navbar-header mobile-view">
                             <!--Responsive Menu  -->
                             <button type="button" class="navbar-toggle collapsed" aria-expanded="false" aria-controls="navbar1" data-toggle="modal" data-target="#NavigationModal">
                                 <span class="sr-only">Toggle navigation</span>
@@ -159,7 +155,7 @@
                                 <span class="icon-bar"></span>
                             </button>
                             <!--Responsive menu ends here-->
-                        </div>                       
+                        </div>
                         <div id="main-navbar" class="col-xs-10 col-sm-9 navbar-collapse collapse">
                             <!-- Top menus on main navigation scroll -->
                         </div>
