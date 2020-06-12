@@ -1,9 +1,24 @@
 ﻿p {
-    font-size: 15px !important;
+    font-size: 14px !important;
     font-weight: 400 !important;
     font-style: normal;
+    letter-spacing:1px !important;
 }
 
-h4{
-    font-weight: 500 !important;
+h4 {
+    font-weight: 400 !important;
+    color: #000066;
+}
+
+h3 {
+    color: #000066;
+}
+
+ul li {
+    font-weight: 300 !important;
+    letter-spacing: 0.5px !important;
+}
+
+footer {
+    padding-top: 200px !important;
 }

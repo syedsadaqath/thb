@@ -49,7 +49,7 @@ namespace THB_site.Controllers
         {
             return View();
         }
-        public ActionResult Our_Tech_Expertise()
+        public ActionResult Our_Expertise()
         {
             return View();
         }

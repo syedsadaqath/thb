@@ -82,7 +82,13 @@
                                 <li>@Html.ActionLink("Careers", "Careers", "Home", null, new { @class = "ga-track" })</li>
                                 <li>@Html.ActionLink("Industries", "Industries", "Home", null, new { @class = "ga-track" })</li>
                                 <li>@Html.ActionLink("Our Clients", "Our_clients", "Home", null, new { @class = "ga-track" })</li>
-                                <li>@Html.ActionLink("Our Tech Expertise", "Our_Tech_Expertise", "Home", null, new { @class = "ga-track" })</li>
+                                <li class="dropdown">
+                                    <a href="@Url.Action("Our_Expertise", "Home")" class="dropdown-toggle ga-track" role="button" aria-haspopup="true" aria-expanded="false">Our  Expertise</a>
+                                    <a href="#" class="open-menu hidden-lg" data-toggle="dropdown"></a>
+                                    @*<ul class="dropdown-menu second-dropdown">
+                                        <a href="#" class="dropdown-toggle ga-track" role="button" aria-haspopup="true">Website development</a>
+                                    </ul>*@
+                                </li>
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle ga-track" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
                                     <a href="#" class="open-menu hidden-lg" data-toggle="dropdown"></a>
@@ -94,9 +100,9 @@
                                 <li>@Html.ActionLink("Pay Now", "Index", "Start", null, new { @class = "ga-track" })</li>
                             </ul>
                             <ul class="nav navbar-nav social">
-                                <li class="hidder-hide-media">
+                                @*<li class="hidder-hide-media">
                                     <a href="#" target="_parent">Media Center</a>
-                                </li>
+                                </li>*@
                                 <li class="header-hide-item">@Html.ActionLink("Contact us", "Contact_Us", "Home")</li>
 
 
@@ -136,10 +142,10 @@
             <nav class="navbar navbar-default main-navigation">
                 <div class="container">
                     <div class="row">
-                        <div class="pull-left col-xs- col-sm-2 logo" style="padding-left:10px">
+                        <div class="pull-left col-xs-6 col-sm-2 logo" style="padding-left:10px">
                             <!--site logo-->
                             <a href='@Url.Action("Index", "Home")' class="navbar-brand1">
-                                <img loading="lazy" id="headerImages" style="display: none;" class="" src="~/media/logo/Cropped Transparent Background.svg" data-src="~/media/logo/Company Logo with R Mark.svg" alt="Avanade logo">
+                                <img loading="lazy" id="headerImages" style="display: none;" class="" src="~/media/logo/Cropped Company Logo with  Transparent Background.png" data-src="~/media/logo/Company Logo with R Mark.svg" alt="TechHighBrowss logo">
                             </a>
                             <!--site logo-->
                         </div>

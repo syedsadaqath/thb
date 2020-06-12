@@ -1186,7 +1186,7 @@ section p a:hover, section.block-module .left-side a:hover, .article-list .media
 }
 
 .navbar.main-navigation {
-    background-color: #fff;
+    background-color: #f2f2f2;
     border: none;
     border-radius: 0;
     z-index: 999;
@@ -9258,7 +9258,7 @@ a.external-link::after {
     padding: 10px 25px 20px;
     width: 100%;
     position: relative;
-    min-height: 156px
+    min-height: 100px
 }
 
     .card-body a {
@@ -10287,7 +10287,7 @@ section.cards.rebranding.five .card-listing .row-eq-height .card {
     }
 
 .five .card-body {
-    height: 180px;
+    height: 120px;
     padding: 6px 15px 14px
 }
 
@@ -25443,7 +25443,7 @@ h5.txt-pr {
 p {
     font-size: 14px;
     line-height: 20px;
-    margin-bottom: 20px
+    margin-bottom: 5px
 }
 
 .content-section p {
@@ -49705,7 +49705,7 @@ section.blog-search-A {
     color: #000066;
     letter-spacing: 0;
     line-height: 19px;
-    margin-top: 12px;
+    margin-top: 5px;
     width: 350px
 }
 
