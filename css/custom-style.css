@@ -1262,7 +1262,7 @@ section p a:hover, section.block-module .left-side a:hover, .article-list .media
     background-image: url(../images/SVG/global-white.svg)
 }
 
-.main-navigation .container .row .logo {
+/*.main-navigation .container .row .logo {
     padding: 0;
     height: 50px
 }
@@ -1294,7 +1294,7 @@ section p a:hover, section.block-module .left-side a:hover, .article-list .media
             object-fit: cover;
             margin: 10px auto 13px 20px;
             height: 27px
-        }
+        }*/
 
 ul.dropdown-menu.mobile-view {
     float: right;
