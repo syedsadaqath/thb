@@ -10287,7 +10287,7 @@ section.cards.rebranding.five .card-listing .row-eq-height .card {
     }
 
 .five .card-body {
-    height: 120px;
+    height: 100px;
     padding: 6px 15px 14px
 }
 
@@ -16051,7 +16051,7 @@ section.cards.rebranding.five .card-listing .row-eq-height .card.fullimg .scLoos
         }
 
         .card-a-module #content, .card-a-module .cards-a .left-single-card-a.mixed-cards .card-a-body {
-            height: 616px;
+            height: 100%;
             width: 100%
         }
 
@@ -16095,7 +16095,7 @@ section.cards.rebranding.five .card-listing .row-eq-height .card.fullimg .scLoos
     }
 
     .card-a-module .cards-a .left-single-card-a.mixed-cards, .card-a-module .cards-a .left-single-card-a.scroll-text {
-        height: 710px;
+        height: 100%;
         cursor: default
     }
 
@@ -56276,10 +56276,10 @@ section.bg-waves {
     height: 170px
 }
 
-.waveContainer {
+/*.waveContainer {
     width: 100%;
     height: 156px
-}
+}*/
 
 .wave11 {
     transform: translate3d(-71.9756px,5.02037px,0);

@@ -3985,7 +3985,7 @@ function HandleBlogExternalLink() {
 
 function feedReferred() {
     if (window.location.href.indexOf("#comments-section") > -1) {
-        jQuery(".navbar-default.blog-nav").addClass("shrink navbar-fixed-top shrink-nav");
+        jQuery(".navbar-default.blog-nav").addClass("shrinkedchange navbar-fixed-top shrinkedchange-nav");
         var n = jQuery("#comments-section"),
             t = jQuery(".main-comments-nav").outerHeight(),
             i = jQuery(".blog-comments-nav").outerHeight(),
@@ -5349,11 +5349,11 @@ if (windowLength = screen.width, jQuery(document).ready(function () {
     i = jQuery(".main-navigation");
     u = 0;
     i.length != 0 && (u = i.offset().top);
-    //jQuery(window).scroll(function () {
-    //    var n = jQuery(this).scrollTop();
-    //    n >= u ? i.addClass("shrink") : i.removeClass("shrink");
-    //    jQuery(document).scrollTop() > 95 ? (jQuery("header-top").addClass("shrink"), jQuery("nav.main-navigation").addClass("shrink"), jQuery("nav:not(.intrapage-nav)").addClass("shrink"), jQuery(".intrapage-nav").addClass("shrink"), jQuery(".mainHeader").addClass("shrink")) : (jQuery(".header-top").removeClass("shrink"), jQuery("nav.main-navigation").removeClass("shrink"), jQuery(".intrapage-nav").removeClass("shrink"), jQuery("nav").removeClass("shrink"), jQuery(".mainHeader").removeClass("shrink"))
-    //});
+    jQuery(window).scroll(function () {
+        var n = jQuery(this).scrollTop();
+        n >= u ? i.addClass("shrinkedchange") : i.removeClass("shrinkedchange");
+        jQuery(document).scrollTop() > 95 ? (jQuery("header-top").addClass("shrinkedchange"), jQuery("nav.main-navigation").addClass("shrinkedchange"), jQuery("nav:not(.intrapage-nav)").addClass("shrinkedchange"), jQuery(".intrapage-nav").addClass("shrinkedchange"), jQuery(".mainHeader").addClass("shrinkedchange")) : (jQuery(".header-top").removeClass("shrinkedchange"), jQuery("nav.main-navigation").removeClass("shrinkedchange"), jQuery(".intrapage-nav").removeClass("shrinkedchange"), jQuery("nav").removeClass("shrinkedchange"), jQuery(".mainHeader").removeClass("shrinkedchange"))
+    });
     jQuery(".rebrand .top-menu ul.nav > li").append('<i class="divider"><\/i>');
     jQuery.fn.outerHTML = function (n) {
         return n ? this.before(n).remove() : jQuery(".NavigationModal").append(this.eq(0).clone()).html()
@@ -5614,7 +5614,7 @@ if (windowLength = screen.width, jQuery(document).ready(function () {
         });
         jQuery(".content-module-I .sitemap-blog h4").on("click", function (n) {
             n.preventDefault();
-            jQuery(".navbar-default.blog-nav").addClass("navbar-fixed-top shrink-nav shrink");
+            jQuery(".navbar-default.blog-nav").addClass("navbar-fixed-top shrinkedchange-nav shrinkedchange");
             var t = jQuery(".accordianBlog").height();
             jQuery(this).next().css("display") == "none" ? (jQuery(this).next().addClass("contentAccordian"), jQuery(".content-module-I ul").hide(), jQuery(".content-module-I h4").removeClass("contentAccordian"), jQuery(".content-module-I ul").hasClass("contentAccordian") && (jQuery(".contentAccordian").show(), jQuery(this).addClass("contentAccordian"))) : (jQuery(this).next().hide(), jQuery(this).removeClass("contentAccordian"));
             jQuery(this).next().removeClass("contentAccordian");
@@ -5659,9 +5659,9 @@ if (windowLength = screen.width, jQuery(document).ready(function () {
         jQuery(window).scrollTop() + jQuery(window).height() < jQuery(document).height() - jQuery(".footer-top").outerHeight() ? jQuery(".scroll-top").fadeOut("slow") : jQuery(".scroll-top").fadeIn("slow")
     });
     jQuery(".main-container").length && (jQuery(".sticky").css("top", jQuery(".main-container").position().top), jQuery(".main-container").height() < jQuery(".sticky").height() && jQuery(".main-container").height(jQuery(".sticky").height()), jQuery(window).scroll(function () {
-        var n = jQuery(".intrapage-nav.shrink").height() + jQuery(".main-container").position().top;
+        var n = jQuery(".intrapage-nav.shrinkedchange").height() + jQuery(".main-container").position().top;
         jQuery(".sticky").css("top", n);
-        jQuery(document).scrollTop() + jQuery(".main-navigation.shrink").height() >= jQuery(".main-container").position().top ? (jQuery(".content-section.top-sticky").parent().find(".sticky").addClass("fixed"), jQuery(".sticky").css("top", jQuery(".intrapage-nav").height() + jQuery(".main-navigation").height())) : (jQuery(".content-section.top-sticky").parent().find(".sticky").not(".blog-sidebar.sticky").removeClass("fixed"), jQuery(".sticky").css("top", n), jQuery(".blog-sidebar.sticky").css("top", "auto"));
+        jQuery(document).scrollTop() + jQuery(".main-navigation.shrinkedchange").height() >= jQuery(".main-container").position().top ? (jQuery(".content-section.top-sticky").parent().find(".sticky").addClass("fixed"), jQuery(".sticky").css("top", jQuery(".intrapage-nav").height() + jQuery(".main-navigation").height())) : (jQuery(".content-section.top-sticky").parent().find(".sticky").not(".blog-sidebar.sticky").removeClass("fixed"), jQuery(".sticky").css("top", n), jQuery(".blog-sidebar.sticky").css("top", "auto"));
         jQuery(document).scrollTop() + jQuery(window).height() >= jQuery(".main-container").height() + jQuery(".main-container").position().top ? (jQuery(".content-section.top-sticky").parent().find(".sticky").not(".blog-sidebar.sticky").removeClass("fixed"), jQuery(".sticky").css("top", "auto"), jQuery("section.sticky").addClass("sticky-bottom"), jQuery("body > .main-container").addClass("sticky-bottom")) : (jQuery("section.sticky").removeClass("sticky-bottom"), jQuery("body > .main-container").removeClass("sticky-bottom"))
     }));
     jQuery(".scroll-top").click(function () {
@@ -5703,7 +5703,7 @@ if (windowLength = screen.width, jQuery(document).ready(function () {
         jQuery(".content-section *, .content-section-E2 li, .content-module-J-New p, .article-paragraph ul li,  .article-paragraph ol li, .article-paragraph p, .half-width-left, .half-width-right").removeClass("text-medium")
     });
     jQuery(".intrapage-nav").closest("section").prev("div, section") && (t = jQuery("section:eq(1)").height(), jQuery(window).scroll(function () {
-        jQuery(window).scrollTop() > t ? jQuery(".intrapage-nav").addClass("shrink") : jQuery(window).scrollTop() < t && jQuery(".intrapage-nav").removeClass("shrink")
+        jQuery(window).scrollTop() > t ? jQuery(".intrapage-nav").addClass("shrinkedchange") : jQuery(window).scrollTop() < t && jQuery(".intrapage-nav").removeClass("shrinkedchange")
     }));
     n = document.getElementById("video1");
     jQuery(window).on("scroll", i);
@@ -5717,7 +5717,7 @@ if (windowLength = screen.width, jQuery(document).ready(function () {
             case 3:
             case 4:
             case 5:
-                jQuery(".intrapage-nav").addClass("shrink");
+                jQuery(".intrapage-nav").addClass("shrinkedchange");
                 jQuery(".rebrand-whole-intranave").parent().next().addClass("top-margin")
         }
         if (location.pathname.replace(/^\//, "") == this.pathname.replace(/^\//, "") && location.hostname == this.hostname && (t = jQuery(this.hash), t = t.length ? t : jQuery("[name=" + this.hash.slice(1) + "]"), t.length)) return jQuery("html, body").animate({
@@ -6333,7 +6333,7 @@ jQuery(window).scrollEnd(function () {
     var t = jQuery(window).scrollTop(),
         i = t + winheight,
         n = t;
-    n = n > 0 ? jQuery(".navbar-default.main-navigation.shrink").height() : jQuery("section.header-top").height();
+    n = n > 0 ? jQuery(".navbar-default.main-navigation.shrinkedchange").height() : jQuery("section.header-top").height();
     i < jQuery(document).height() && GifActivator(n)
 }, 1e3);
 try {
@@ -6983,7 +6983,7 @@ jQuery(document).ready(function (n) {
         n(".intrapage-nav").parent().css("background-color", t)
     });
     n(".rebrand-intra-nav").length && n(".intrapage-nav").closest("section").prev("div, section") && (i = n(".rebrand-intra-nav").offset().top - 240, n(window).scroll(function () {
-        n(window).scrollTop() > i ? n(".intrapage-nav").addClass("shrink") : n(window).scrollTop() < i && n(".intrapage-nav").removeClass("shrink")
+        n(window).scrollTop() > i ? n(".intrapage-nav").addClass("shrinkedchange") : n(window).scrollTop() < i && n(".intrapage-nav").removeClass("shrinkedchange")
     }));
     n(document).ready(function () {
         var i;
@@ -7214,12 +7214,12 @@ if (is_iPad = navigator.userAgent.match(/iPad/i) !== null, is_iPad === !0 && jQu
         t > 96 && n.find(".box-title a").text(n.find(".box-title a").text().substr(0, 91) + "...")
     })
 }), win_width = screen.width, jQuery(document).ready(function () {
-    jQuery(".header-top").addClass("blog-shrink");
-    jQuery(".main-navigation.navbar-fixed-top").addClass("blog-shrink");
+    jQuery(".header-top").addClass("blog-shrinkedchange");
+    jQuery(".main-navigation.navbar-fixed-top").addClass("blog-shrinkedchange");
     var n = jQuery("header").offset();
     jQuery(window).scroll(function () {
-        win_width > 750 && (jQuery(document).scrollTop() > n.top ? (jQuery(".blog-nav").addClass("navbar-fixed-top shrink-nav"), jQuery(".a").fadeOut(), jQuery(".blog-menu").removeClass("col-md-offset-4 col-sm-offset-2"), jQuery(".blog-logo").removeClass("col-md-8").addClass("col-md-4")) : (jQuery(".blog-nav").removeClass("navbar-fixed-top shrink-nav"), jQuery(".a").fadeIn(), jQuery(".blog-menu").addClass("col-md-offset-4"), jQuery(".blog-logo").removeClass("col-md-4").addClass("col-md-8")));
-        win_width < 751 && (jQuery(document).scrollTop() > n.top ? (jQuery(".blog-nav").addClass("navbar-fixed-top shrink-nav"), jQuery(".article-list-module").css("margin-top", jQuery(".main-navigation").outerHeight() + jQuery(".blog-nav").outerHeight() + 50)) : (jQuery(".blog-nav").removeClass("navbar-fixed-top shrink-nav"), jQuery(".article-list-module").css("margin-top", 0)));
+        win_width > 750 && (jQuery(document).scrollTop() > n.top ? (jQuery(".blog-nav").addClass("navbar-fixed-top shrinkedchange-nav"), jQuery(".a").fadeOut(), jQuery(".blog-menu").removeClass("col-md-offset-4 col-sm-offset-2"), jQuery(".blog-logo").removeClass("col-md-8").addClass("col-md-4")) : (jQuery(".blog-nav").removeClass("navbar-fixed-top shrinkedchange-nav"), jQuery(".a").fadeIn(), jQuery(".blog-menu").addClass("col-md-offset-4"), jQuery(".blog-logo").removeClass("col-md-4").addClass("col-md-8")));
+        win_width < 751 && (jQuery(document).scrollTop() > n.top ? (jQuery(".blog-nav").addClass("navbar-fixed-top shrinkedchange-nav"), jQuery(".article-list-module").css("margin-top", jQuery(".main-navigation").outerHeight() + jQuery(".blog-nav").outerHeight() + 50)) : (jQuery(".blog-nav").removeClass("navbar-fixed-top shrinkedchange-nav"), jQuery(".article-list-module").css("margin-top", 0)));
         jQuery(document).scrollTop() > 0 ? (jQuery(".blog-sidebar").parent().find(".sticky").addClass("fixed"), jQuery(".blog-sidebar .content-module-K.blog-share").addClass("upperSpace")) : jQuery(document).scrollTop() == 0 && jQuery(".blog-sidebar .content-module-K.blog-share").removeClass("upperSpace");
         jQuery(".main-container").length > 0 && jQuery(document).scrollTop() + jQuery(window).height() >= jQuery(".main-container").height() + jQuery(".main-container").position().top && (jQuery(".blog-sidebar .content-module-K.blog-share").removeClass("upperSpace"), jQuery(".blog-sidebar").addClass("sticky-bottom"))
     });
@@ -7242,7 +7242,7 @@ if (is_iPad = navigator.userAgent.match(/iPad/i) !== null, is_iPad === !0 && jQu
     });
     jQuery("a.join-conversation").on("click", function (n) {
         n.preventDefault();
-        jQuery(".navbar-default.blog-nav").addClass("shrink navbar-fixed-top shrink-nav");
+        jQuery(".navbar-default.blog-nav").addClass("shrinkedchange navbar-fixed-top shrinkedchange-nav");
         var e = this,
             t = jQuery(this.hash),
             r = jQuery(".main-comments-nav").outerHeight(),
@@ -7261,7 +7261,7 @@ if (is_iPad = navigator.userAgent.match(/iPad/i) !== null, is_iPad === !0 && jQu
         jQuery.trim(jQuery(this).text()) == "" && jQuery(this).children().length == 0 && jQuery(this).remove()
     }), win_width > 751) jQuery("#BlogSearch").on("shown.bs.modal", function () {
         jQuery(".modal-backdrop").hide();
-        jQuery(".navbar-inverse").hasClass("shrink") ? (jQuery(".modal-backdrop").addClass("dropShrink"), jQuery(".modal-backdrop").show()) : (jQuery(".modal-backdrop").addClass("drop"), jQuery(".modal-backdrop").show())
+        jQuery(".navbar-inverse").hasClass("shrinkedchange") ? (jQuery(".modal-backdrop").addClass("dropshrinkedchange"), jQuery(".modal-backdrop").show()) : (jQuery(".modal-backdrop").addClass("drop"), jQuery(".modal-backdrop").show())
     });
     if (win_width > 751) {
         var n = jQuery(".nav-section").find("div.a").length,
@@ -16465,7 +16465,7 @@ if (is_iPad = navigator.userAgent.match(/iPad/i) !== null, is_iPad === !0 && jQu
                     flex: 1,
                     flexGrow: 1,
                     flexPositive: 1,
-                    flexShrink: 1,
+                    flexshrinkedchange: 1,
                     flexNegative: 1,
                     fontWeight: 1,
                     lineClamp: 1,

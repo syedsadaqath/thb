@@ -1,5 +1,6 @@
 ﻿using MailApi;
 using System;
+using System.Collections.Generic;
 using System.Net;
 using System.Net.Mail;
 using System.Threading.Tasks;
@@ -25,11 +26,11 @@ namespace THB_site.Controllers
         {
             return View();
         }
-        public ActionResult Orientation_Center()
+        public ActionResult Development_Center()
         {
             return View();
         }
-        public ActionResult Innovation_Center()
+        public ActionResult Research_and_Development()
         {
             return View();
         }
