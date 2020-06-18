@@ -49,6 +49,7 @@
     <div></div>
     @using (Html.BeginForm("Contact_Us", "Home", FormMethod.Post, new { id = "4874", @class = "marketo-full mktoForm mktoHasWidth mktoLayoutAbove", __bizdiag = "196448867", __biza = "WJ__", style = "font-family: Arial, Verdana, sans-serif; font-size: 12px; color: rgb(51, 51, 51); width: 1996px;" }))
     {
+        @Html.AntiForgeryToken()
         @*<form id="4874" action="/action_page.php" method="get" class="marketo-full mktoForm mktoHasWidth mktoLayoutAbove" __bizdiag="196448867" __biza="WJ__" style="font-family: Arial, Verdana, sans-serif; font-size: 12px; color: rgb(51, 51, 51); width: 1996px;">*@
         <style type="text/css">
             .mktoForm .mktoButtonWrap.mktoPaperMashup .mktoButton {
@@ -92,8 +93,8 @@
                         First Name:
                     </label>
                     <div class="mktoGutter mktoHasWidth" style="width: 10px;"></div>
-                    <input id="FirstName" name="FirstName" maxlength="255" type="text"
-                           class="mktoField mktoTextField mktoHasWidth mktoRequired" style="width: 225px;">
+                    @Html.Editor("FirstName", new { htmlAttributes = new { @class = "mktoField mktoTextField mktoHasWidth mktoRequired", @title = "FirstName", @placeholder = "First Name" } })
+                    @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })
                     <div class="mktoClear"></div>
                 </div>
                 <div class="mktoClear"></div>
@@ -107,8 +108,8 @@
                         Last Name:
                     </label>
                     <div class="mktoGutter mktoHasWidth" style="width: 10px;"></div>
-                    <input id="LastName" name="LastName" maxlength="255" type="text"
-                           class="mktoField mktoTextField mktoHasWidth mktoRequired" style="width: 225px;">
+                    @Html.Editor("LastName", new { htmlAttributes = new { @class = "mktoField mktoTextField mktoHasWidth mktoRequired", @title = "LastName", @placeholder = "Last Name" } })
+                    @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
                     <div class="mktoClear"></div>
                 </div>
                 <div class="mktoClear"></div>
@@ -122,8 +123,8 @@
                         Email Address:
                     </label>
                     <div class="mktoGutter mktoHasWidth" style="width: 10px;"></div>
-                    <input id="Email" name="Email" maxlength="255" type="email"
-                           class="mktoField mktoEmailField mktoHasWidth mktoRequired" style="width: 225px;">
+                    @Html.Editor("Email", new { htmlAttributes = new { @class = "mktoField mktoEmailField mktoHasWidth mktoRequired", @title = "Email", @placeholder = "Email" } })
+                    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
                     <div class="mktoClear"></div>
                 </div>
                 <div class="mktoClear"></div>
@@ -139,7 +140,8 @@
                         Phone Number:
                     </label>
                     <div class="mktoGutter mktoHasWidth" style="width: 10px;"></div>
-                    <input id="Phone" name="Phone" maxlength="255" type="tel" class="mktoField mktoTelField mktoHasWidth" style="width: 225px;">
+                    @Html.Editor("Phone", new { htmlAttributes = new { @class = "mktoField mktoTelField mktoHasWidth", @title = "Phone", @placeholder = "Phone" } })
+                    @Html.ValidationMessageFor(model => model.Phone, "", new { @class = "text-danger" })
                     <div class="mktoClear"></div>
                 </div>
                 <div class="mktoClear"></div>
@@ -153,7 +155,8 @@
                         Company Name:
                     </label>
                     <div class="mktoGutter mktoHasWidth" style="width: 10px;"></div>
-                    <input id="Company" name="Company" maxlength="255" type="text" class="mktoField mktoTextField mktoHasWidth mktoRequired mktoInvalid" style="width: 225px;">
+                    @Html.Editor("Company", new { htmlAttributes = new { @class = "mktoField mktoTextField mktoHasWidth mktoRequired mktoInvalid", @title = "Company", @placeholder = "Enter your Company Name" } })
+                    @Html.ValidationMessageFor(model => model.Company, "", new { @class = "text-danger" })
                     <div class="mktoClear"></div>
                 </div>
                 <div class="mktoClear"></div>
@@ -166,16 +169,17 @@
             <div class="mktoFieldDescriptor mktoFormCol full-width" style="margin-bottom: 10px;">
                 <div class="mktoOffset" style="width: 10px;"></div>
                 <div class="mktoFieldWrap mktoRequiredField">
-                    <label id="Info_requested" for="ContactUs_Request"
+                    <label id="ContactUs_Request" for="ContactUs_Request"
                            class="mktoLabel mktoHasWidth" style="width: 225px;">
                         @*<div class="mktoAsterix">*</div>*@
                         Information Requested:
                     </label>
                     <div class="mktoGutter mktoHasWidth" style="width: 10px;"></div>
-                    <textarea id="ContactUs_Request" name="ContactUs_Request" rows="4"
-                              class="mktoField mktoHasWidth mktoRequired full-width mktoInvalid" maxlength="3500"
-                              style="width: 775px;">
-                    </textarea>
+                    @Html.Editor("ContactUs_Request", new { htmlAttributes = new {
+                                @id = "ContactUs_Request", @name = "ContactUs_Request", @rows = "4",
+                                @maxlength="3500",
+                                @style="width: 775px;", @class = "mktoField mktoHasWidth mktoRequired full-width mktoInvalid", @title = "ContactUs_Request", @placeholder = "Enter your Company Name" } })
+                    @Html.ValidationMessageFor(model => model.ContactUs_Request, "", new { @class = "text-danger" })
                     <div class="mktoError" style="right: 488.5px; bottom: -75px; display: none;">
                         <div class="mktoErrorArrowWrap">
                             <div class="mktoErrorArrow"></div>

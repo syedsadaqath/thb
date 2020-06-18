@@ -5,44 +5,36 @@
             <div class="col-md-10 rebrand-wrapper col-md-offset-1 ContactAnimate contactShowed" id="ContactAnimate">
                 <!-- for the image !-->
                 <!-- for the content !-->
-                <div class="rebranding-contactus-content">
+                <div class="rebranding-contactus-content" style="height:350px">
                     <div class="col-sm-7 col-md-7 col-xs-12">
                         <div class="contactus-content">
                             <div id="componentlayout440517" class="row ">
                                 <div id="componentlayout440518" class="col-sm-6 ">
                                     <div id="componentlayout440519" class="touch_left flt ">
-                                        <div class="multiple-card-image">
+                                        <div class="multiple-card-image" style="padding-bottom:28px">
                                             <img data-src="~/images/upload/thbsoftwaresolution/THBLogo_V1.0_344x223 (1).png"
-                                                 src="~/media/logo/THBLogo_V1.0_344x223 (1).png"
+                                                 src="~/media/logo/image001 (3).jpg"
                                                  class="img-responsive ga-retabbed-img-about-avanade-tab-1-1-3"
                                                  alt="diversity and inclusion">
                                         </div>
                                         <div id="componentlayout440521" class="add_blocks mar_bott flt ">
                                             <h5 style="font-weight:500;color:#000066">Address:</h5>
-                                            <p style="text-align: left;">
+                                            <p style="text-align: left;padding-left:25%">
                                                 <small>
                                                     2nd Floor, BVR Lake front building,
                                                     Veerannapalya Main Road,
                                                     Nagavara,<br /> Bengaluru - 560045.
                                                 </small>
                                             </p>
-                                            <p>
+                                            <p style="padding-left:25%">
                                                 <a href="mailto:hrindia@techhighbrows.com">
                                                     hrindia@techhighbrows.com
                                                 </a>
                                             </p>
 
-                                            <p>
-                                                <a href="tel:+91 080 4099 7771" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});">
-                                                    <p class="call-button">+91 080 4099 7771</p>
-                                                </a>
-                                            </p>
-
-                                            <p>
-                                                <a a href="tel:+91 740 641 8999" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});">
-                                                    <p class="call-button">+91 740 641 8999</p>
-                                                </a>
-                                            </p>
+                                            <p style="padding-left:25%">
+                                                <a href="tel:+91 080 4099 7771" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});">+91 080 4099 7771</a> / <a a href="tel:+91 740 641 8999" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});">+91 740 641 8999</a>
+                                            <p >
                                         </div>
                                     </div>
                                 </div>
@@ -51,65 +43,35 @@
                         <!-- for the button !-->
                     </div>
 
+                    <script type='text/javascript'>
+                        var map;
+
+                        function GetMap() {
+                            map = new Microsoft.Maps.Map('#myMap', {
+                                center: new Microsoft.Maps.Location(13.041713, 77.613174)
+                            });
+
+                            var center = map.getCenter();
+
+                            //Create custom Pushpin
+                            var pin = new Microsoft.Maps.Pushpin(center, {
+                                title: 'THB Software Solutions',
+                                subTitle: '',
+                                text: 'THB'
+                            });
+
+                            //Add the pushpin to the map
+                            map.entities.push(pin);
+                        }
+                    </script>
+                    <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=AtbGDiyh2sCRIIhxFCq6McmptRXMQbVZ77nGM1BhEEAy0abzpT4tJ1uWEYEKBfjl' async defer></script>
+
+
                     <div id="componentlayout440523" class="col-sm-4 col-md-4 col-xs-6 pull-left">
                         <div id="componentlayout440524" class="touch_right flt ">
                             <div id="componentlayout440526" class="form_div flt ">
-                                <style type="text/css">
-                                    .form_div label {
-                                        display: none;
-                                    }
-
-                                    .form_div .form-group {
-                                        float: right;
-                                        width: 100%;
-                                    }
-
-                                        .form_div .form-group .col-md-3 {
-                                            float: right;
-                                            width: 100%;
-                                        }
-
-                                            .form_div .form-group .col-md-3 .form-control {
-                                                float: right;
-                                                width: 100%;
-                                            }
-
-                                        .form_div .form-group.wd_50 {
-                                            float: right;
-                                            width: 50%;
-                                        }
-
-                                        .form_div .form-group .col-md-3 .form-control {
-                                            float: right;
-                                            width: 100%;
-                                            border: 1px solid rgb(159, 159, 159);
-                                            border-radius: 0px;
-                                            box-shadow: none;
-                                            height: 45px;
-                                            margin-bottom: 15px;
-                                            font-family: "Muli", sans-serif;
-                                            font-weight: 600;
-                                        }
-
-                                    .form_div #Message {
-                                        height: 150px;
-                                    }
-
-                                    .form_div .form-group .col-sm-10 {
-                                        padding: 0px;
-                                        margin: 0px;
-                                        float: right;
-                                        width: 100%;
-                                    }
-                                </style>
-                                <div id="messagediv5759"></div>
-                                <div style="padding-top:5px;padding-right:25px;">
-                                    <iframe width="325" height="280" frameborder="0" src="https://www.bing.com/maps/embed?h=280&w=325&cp=13.041713~77.613174&lvl=11&typ=d&sty=r&src=SHELL&FORM=MBEDV8" scrolling="no"></iframe>
-                                    <div style="white-space: nowrap; text-align: center; width: 325px; padding: 6px 0;">
-                                        <a id="largeMapLink" target="_blank" href="https://www.bing.com/maps?cp=13.041713~77.613174&amp;sty=r&amp;lvl=11&amp;FORM=MBEDLD">View Larger Map</a> &nbsp; | &nbsp;
-                                        <a id="dirMapLink" target="_blank" href="https://www.bing.com/maps/directions?cp=13.041713~77.613174&amp;sty=r&amp;lvl=11&amp;rtp=~pos.13.041713_77.613174____&amp;FORM=MBEDLD">Get Directions</a>
-                                    </div>
-                                </div>
+                                <div id="myMap" style="position:relative;width:300px;height:260px;"></div>
+                                <a id="dirMapLink" target="_blank" href="https://www.bing.com/maps/directions?cp=13.041713~77.613174&amp;sty=r&amp;lvl=13&amp;rtp=~pos.13.041713_77.613174____&amp;FORM=MBEDLD">Get Directions</a>
                             </div>
                         </div>
                     </div>

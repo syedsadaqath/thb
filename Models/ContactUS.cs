@@ -16,12 +16,15 @@ namespace THB_site.Models
         [Required]
         public string LastName { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Email ID is Required")]
         [DataType(DataType.EmailAddress)]
+        [MaxLength(50)]
+        [RegularExpression(@"[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}", ErrorMessage = "Incorrect Email Format")]
         public string Email { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Contact is required")]
         [DataType(DataType.PhoneNumber)]
+        [RegularExpression(@"^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$", ErrorMessage = "Not a valid Phone number")]
         public string Phone { get; set; }
 
         [Required]
