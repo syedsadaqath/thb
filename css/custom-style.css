@@ -1235,7 +1235,7 @@ section p a:hover, section.block-module .left-side a:hover, .article-list .media
             width: 20px;
             height: 2px;
             border-radius: 0;
-            background-color: #fe5800
+            background-color: #000066
         }
 
         .main-navigation > .container > .row > .mobile-view button.navbar-toggle:hover .icon-bar {
@@ -9185,7 +9185,7 @@ a.external-link::after {
 
 .cards.rebranding {
     padding-bottom: 100px;
-    padding-top: 90px
+    padding-top: 40px
 }
 
 .card-listing {
@@ -15556,7 +15556,7 @@ section.cards.rebranding.five .card-listing .row-eq-height .card.fullimg .scLoos
         }
 
     .card-a-module {
-        padding: 90px 0 100px
+        padding: 30px 0 80px
     }
 
         .card-a-module .module-title {
@@ -16095,7 +16095,7 @@ section.cards.rebranding.five .card-listing .row-eq-height .card.fullimg .scLoos
     }
 
     .card-a-module .cards-a .left-single-card-a.mixed-cards, .card-a-module .cards-a .left-single-card-a.scroll-text {
-        height: 100%;
+        height: 85%;
         cursor: default
     }
 
@@ -26914,7 +26914,7 @@ section.content-section.content-module-F .box01 .btn.download-btn:active {
     }
 
     .block-module {
-        padding-top: 42px
+        padding-top: 30px
     }
 
         .block-module .left-side, .block-module .right-side {
@@ -27063,7 +27063,8 @@ section.content-section.content-module-F .box01 .btn.download-btn:active {
     }
 
     section.content-section.content-section-E > .container > .bg-content, section.content-section.content-section-E2 > .container > .bg-content {
-        padding: 40px 35px 40px
+        padding: 40px 35px 40px;
+        border-radius: 25px;
     }
 
     .content-section-E .bg-content {
@@ -27079,8 +27080,9 @@ section.content-section.content-module-F .box01 .btn.download-btn:active {
     }
 
     section.block-section > .container > div, section.content-section > .container > div, section.content-section .container .bg-content div > div {
-        padding-left: 5px;
-        padding-right: 5px
+        padding-left: 25px;
+        padding-right: 5px;
+        margin-left: 30px
     }
 
     section.content-module-F > .container .wow, section.content-module-F > .container > div > div {
@@ -33429,7 +33431,7 @@ section.search-module-grid .card-default.only-text.btn-text .content a.btn.btn-d
     }
 
     section.search-module-grid .card-four .card-default, section.search-module-grid .card-four .card-default.only-text, section.search-module-grid .card-four .card-default.only-text .content {
-        height: 250px
+        height: 180px
     }
 
         section.search-module-grid .card-four .card-default.full-img .content {
@@ -49672,7 +49674,7 @@ section.blog-search-A {
     float: left;
     padding: 0;
     position: relative;
-    bottom: -88px;
+    bottom: -70px;
     background: #fff
 }
 
@@ -49811,7 +49813,7 @@ section.blog-search-A {
 
 @media screen and (max-width:750px) {
     .rebrand-contact-us-module-A {
-        height: 309px
+        height: 500px
     }
 
     section.rebrand-contact-us-module-A {

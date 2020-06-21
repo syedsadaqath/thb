@@ -1,0 +1,210 @@
+﻿@model THB_site.Models.ContactUS
+
+@{
+    ViewBag.Title = "Contact_Us";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<nav class="navbar rebrand-breadcrumb-module hidden-xs flame-1920">
+    <div class="container">
+        <div class="row">
+            <ol class="breadcrumb" vocab="http://schema.org/" typeof="BreadcrumbList">
+                <li property="itemListElement" typeof="ListItem">
+                    <a property="item" typeof="WebPage" href="@Url.Action("Index", "Home")">
+                        <span property="name">Home</span>
+                    </a>
+                    <meta property="position" content="1">
+                </li>
+                <li property="itemListElement" typeof="ListItem">
+                    Contact
+                    <meta property="position" content="2">
+                </li>
+            </ol>
+        </div>
+    </div>
+</nav>
+
+<script>
+    const emailRegex = RegExp(
+  /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+);
+
+const formValid = ({ formErrors, ...rest }) => {
+  let valid = true;
+
+  // validate form errors being empty
+  Object.values(formErrors).forEach(val => {
+    val.length > 0 && (valid = false);
+  });
+
+  // validate the form was filled out
+  Object.values(rest).forEach(val => {
+    val === null && (valid = false);
+  });
+
+  return valid;
+};
+
+class App extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      firstName: null,
+      lastName: null,
+      email: null,
+      Phone: null,
+      formErrors: {
+        firstName: "",
+        lastName: "",
+        email: "",
+         Phone: ""
+      }
+    };
+  }
+
+  handleSubmit = e => {
+    e.preventDefault();
+
+    if (formValid(this.state)) {
+      console.log(`
+        --SUBMITTING--
+        First Name: ${this.state.firstName}
+        Last Name: ${this.state.lastName}
+        Email: ${this.state.email}
+         Phone: ${this.state. Phone}
+      `);
+    } else {
+      console.error("FORM INVALID - DISPLAY ERROR MESSAGE");
+    }
+  };
+
+  handleChange = e => {
+    e.preventDefault();
+    const { name, value } = e.target;
+    let formErrors = { ...this.state.formErrors };
+
+    switch (name) {
+      case "firstName":
+        formErrors.firstName =
+          value.length < 3 ? "minimum 3 characaters required" : "";
+        break;
+      case "lastName":
+        formErrors.lastName =
+          value.length < 3 ? "minimum 3 characaters required" : "";
+        break;
+      case "email":
+        formErrors.email = emailRegex.test(value)
+          ? ""
+          : "invalid email address";
+        break;
+        case " Phone":
+            formErrors. Phone =
+              value.length < 10 ? "minimum 10 characaters required" : "";
+            break;
+      default:
+        break;
+    }
+
+    this.setState({ formErrors, [name]: value }, () => console.log(this.state));
+  };
+
+
+
+</script>
+
+<div className="wrapper">
+    <div className="form-wrapper">
+        <h1>Contact Us</h1>
+        <form onSubmit={this.handleSubmit} noValidate>
+            <div className="firstName">
+                <label htmlFor="firstName">First Name</label>
+                <input className={formErrors.firstName.length> 0 ? "error" : null}
+                placeholder="First Name"
+                type="text"
+                name="firstName"
+                noValidate
+                onChange={this.handleChange}
+                />
+                {formErrors.firstName.length > 0 && (
+                <span className="errorMessage">{formErrors.firstName}</span>
+                )}
+            </div>
+            <div className="lastName">
+                <label htmlFor="lastName">Last Name</label>
+                <input className={formErrors.lastName.length> 0 ? "error" : null}
+                placeholder="Last Name"
+                type="text"
+                name="lastName"
+                noValidate
+                onChange={this.handleChange}
+                />
+                {formErrors.lastName.length > 0 && (
+                <span className="errorMessage">{formErrors.lastName}</span>
+                )}
+            </div>
+            <div className="email">
+                <label htmlFor="email">Email</label>
+                <input className={formErrors.email.length> 0 ? "error" : null}
+                placeholder="Email"
+                type="email"
+                name="email"
+                noValidate
+                onChange={this.handleChange}
+                />
+                {formErrors.email.length > 0 && (
+                <span className="errorMessage">{formErrors.email}</span>
+                )}
+            </div>
+
+            <div className=" Phone">
+                <label htmlFor=" Phone"> Phone</label>
+                <input className={formErrors. Phone.length> 0 ? "error" : null}
+                placeholder=" Phone"
+                type=" Phone"
+                name=" Phone"
+                noValidate
+                onChange={this.handleChange}
+                />
+                {formErrors. Phone.length > 0 && (
+                <span className="errorMessage">{formErrors. Phone}</span>
+                )}
+            </div>
+
+            <div className=" Phone">
+                <label htmlFor=" Company Name"> Company Name</label>
+                <input className={formErrors. Phone.length> 0 ? "error" : null}
+                placeholder=" Company Name"
+                type=" Company Name"
+                name=" Company Name"
+                noValidate
+                onChange={this.handleChange}
+                />
+                {formErrors. Phone.length > 0 && (
+                <span className="errorMessage">{formErrors. Phone}</span>
+                )}
+            </div>
+
+            <div className=" Phone">
+                <label htmlFor=" Information Requested"> Information Requested</label>
+                <input className={formErrors. Phone.length> 0 ? "error" : null}
+                placeholder=" Information Requested"
+                type=" Information Requested"
+                name=" Information Requested"
+                noValidate
+                onChange={this.handleChange}
+                />
+                {formErrors. Phone.length > 0 && (
+                <span className="errorMessage">{formErrors. Phone}</span>
+                )}
+            </div>
+
+            <div className="Submit">
+                <button type="submit">Submit</button>
+
+            </div>
+
+
+        </form>
+    </div>
+</div>

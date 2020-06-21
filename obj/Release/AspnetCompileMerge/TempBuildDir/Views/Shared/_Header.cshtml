@@ -30,7 +30,7 @@
                     <div class="col-sm-4 col-lg-3 social-icon ">
                         <!--Sharing Social Tooltip-->
                         <ul class="list-inline">
-                            <li class="rebrands-share">Share<span class="rebrand-acessible">:</span></li>
+                            <li class="rebrands-share" style="font-size:16px">Share<span class="rebrand-acessible">:</span></li>
                             <li class="facebook clickGoalEvent">
                                 <a class="header-share-facebook" rel="nofollow" data-analytics-share="facebook" href="https://www.facebook.com/" onclick="popUp = window.open('https://www.facebook.com/dialog/share?app_id=698293453640098&href=https://www.facebook.com/techhighbrows?utm_source=facebook%26utm_medium=social-share-top%26utm_campaign=web','popupwindow','scrollbars =yes,width =800,height =400');popUp.focus();return false">
                                     <i class="visuallyhidden"></i>
@@ -44,7 +44,7 @@
                                 </a>
                             </li>
                             <li class="linkedin clickGoalEvent">
-                                <a class="header-share-linkedin" rel="nofollow" data-analytics-share="linkedin" href="http://www.linkedin.com/?url=https://www.techhighbrows.com/" onclick="popUp=window.open('https://www.linkedin.com/in/techhighbrows-software-82416a1aa/?utm_source=linkedin%26utm_medium=social-share-top%26utm_campaign=web','popupwindow','scrollbars=yes,width=800,height=400');popUp.focus();return false">
+                                <a class="header-share-linkedin" rel="nofollow" data-analytics-share="linkedin" href="http://www.linkedin.com/?url=https://www.linkedin.com/company/techhighbrows-software-solutions-pvt-ltd" onclick="popUp=window.open('https://www.linkedin.com/company/techhighbrows-software-solutions-pvt-ltd/?utm_sounavbarrce=linkedin%26utm_medium=social-share-top%26utm_campaign=web','popupwindow','scrollbars=yes,width=800,height=400');popUp.focus();return false">
                                     <i class="visuallyhidden"></i>
                                     <img class="lazy-load-modules" data-src="/images/sharing-tooltip/Linkedin.png" alt="Linkedin Social Share">
                                 </a>
@@ -70,12 +70,13 @@
                                 <li>@Html.ActionLink("About", "About", "Home", null, new { @class = "ga-track" })</li>
 
                                 <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle ga-track" role="button" aria-haspopup="true" aria-expanded="false">THB initiative</a>
+                                    <a href="#" class="dropdown-toggle ga-track" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
                                     <a href="#" class="open-menu hidden-lg" data-toggle="dropdown"></a>
                                     <ul class="dropdown-menu second-dropdown">
+                                        @*<li>@Html.ActionLink("Development Center", "Development_Center", "Home", null, new { @class = "ga-track" })</li>*@
+                                        <li>@Html.ActionLink("Research & Development", "Research_and_Development", "Home", null, new { @class = "ga-track" })</li>
                                         <li>@Html.ActionLink("Technology Center", "Technology_Center", "Home", null, new { @class = "ga-track" })</li>
-                                        <li>@Html.ActionLink("Orientation Center", "Orientation_Center", "Home", null, new { @class = "ga-track" })</li>
-                                        <li>@Html.ActionLink("Innovation Center", "Innovation_Center", "Home", null, new { @class = "ga-track" })</li>
+                                        <li>@Html.ActionLink("IT Consulting", "IT_Consulting", "Home", null, new { @class = "ga-track" })</li>
                                     </ul>
                                 </li>
                                 <li>@Html.ActionLink("Products", "Products", "Home", null, new { @class = "ga-track" })</li>
@@ -89,21 +90,20 @@
                                         <a href="#" class="dropdown-toggle ga-track" role="button" aria-haspopup="true">Website development</a>
                                     </ul>*@
                                 </li>
-                                <li class="dropdown">
+                                @*<li class="dropdown">
                                     <a href="#" class="dropdown-toggle ga-track" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
                                     <a href="#" class="open-menu hidden-lg" data-toggle="dropdown"></a>
                                     <ul class="dropdown-menu second-dropdown">
                                         <li>@Html.ActionLink("Technical Services", "Technical_Services", "Home", null, new { @class = "ga-track" })</li>
-                                        <li>@Html.ActionLink("Staffing", "Staffing", "Home", null, new { @class = "ga-track" })</li>
                                     </ul>
-                                </li>
+                                </li>*@
                                 <li>@Html.ActionLink("Pay Now", "Index", "Start", null, new { @class = "ga-track" })</li>
                             </ul>
                             <ul class="nav navbar-nav social">
                                 @*<li class="hidder-hide-media">
                                     <a href="#" target="_parent">Media Center</a>
                                 </li>*@
-                                <li class="header-hide-item">@Html.ActionLink("Contact us", "Contact_Us", "Home")</li>
+                                <li class="header-hide-item">@Html.ActionLink("Contact us", "Contact_Us", "Home", new { Styles= "font - size:18px" })</li>
 
 
                                 <!-- Top menus on main navigation scroll -->
@@ -142,15 +142,11 @@
             <nav class="navbar navbar-default main-navigation">
                 <div class="container">
                     <div class="row">
-                        <div class="pull-left col-xs-6 col-sm-2 logo" style="padding-left:10px">
-                            <!--site logo-->
-                            <a href='@Url.Action("Index", "Home")' class="navbar-brand1">
-                                <img loading="lazy" id="headerImages" style="display: none;" class="" src="~/media/logo/Cropped Company Logo with  Transparent Background.png" data-src="~/media/logo/Company Logo with R Mark.svg" alt="TechHighBrowss logo">
-                            </a>
-                            <!--site logo-->
+                        <div class="pull-left col-xs-2 col-sm-2 logo" style="padding-left:10px">
+                            <img loading="lazy" id="headerImages" onclick="location.href='@Url.Action("Index", "Home")'" style="" class="" src="~/media/logo/Company Logo 85 _ 50.svg" data-src="~/media/logo/Company Logo 85 _ 50.svg" alt="TechHighBrowss logo">
                         </div>
 
-                        <div class="col-xs-6 hidden-lg navbar-header mobile-view">                          
+                        <div class="col-xs-6 hidden-lg navbar-header mobile-view">
                             <!--Responsive Menu  -->
                             <button type="button" class="navbar-toggle collapsed" aria-expanded="false" aria-controls="navbar1" data-toggle="modal" data-target="#NavigationModal">
                                 <span class="sr-only">Toggle navigation</span>
@@ -159,7 +155,7 @@
                                 <span class="icon-bar"></span>
                             </button>
                             <!--Responsive menu ends here-->
-                        </div>                       
+                        </div>
                         <div id="main-navbar" class="col-xs-10 col-sm-9 navbar-collapse collapse">
                             <!-- Top menus on main navigation scroll -->
                         </div>

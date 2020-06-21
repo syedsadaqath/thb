@@ -18,7 +18,7 @@ namespace THB_site.Models
 
         [Required(ErrorMessage = "Email ID is Required")]
         [DataType(DataType.EmailAddress)]
-        [MaxLength(50)]
+        [MaxLength(12)]
         [RegularExpression(@"[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}", ErrorMessage = "Incorrect Email Format")]
         public string Email { get; set; }
 
@@ -30,7 +30,7 @@ namespace THB_site.Models
         [Required]
         public string Company { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "information is required")]
         public string ContactUs_Request { get; set; }       
     }
 }
